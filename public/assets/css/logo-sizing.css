@@ -1,0 +1,14 @@
+/* Logo sizing only - no color changes */
+.main-menu__logo img,
+.main-menu-two__logo img,
+.main-menu-three__logo img {
+  max-height: 80px;
+  width: auto;
+  object-fit: contain;
+}
+
+.logo-box img {
+  max-height: 70px;
+  width: auto;
+  object-fit: contain;
+}

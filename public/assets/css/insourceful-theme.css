@@ -1,0 +1,162 @@
+/*--------------------------------------------------------------
+# InSourceful Custom Color Theme
+--------------------------------------------------------------*/
+
+:root {
+  /* InSourceful Color Palette */
+  --slate-150: #3C4545;     /* Primary dark */
+  --slate-100: #2D3235;     /* Secondary dark - much darker gray */
+  --slate-50: #C2D4D4;      /* Light accent */
+  --neutral-30: #F1EFED;    /* Background */
+  --oracle-red: #C74634;    /* Primary CTA */
+  --brand-yellow: #F1B13F;  /* Secondary accent */
+  
+  /* Override existing Zeena variables */
+  --zeena-base: #C74634;              /* Oracle Red for primary actions */
+  --zeena-base-rgb: 199, 70, 52;
+  --zeena-black: #3C4545;             /* Slate 150 for dark text */
+  --zeena-black-rgb: 60, 69, 69;
+  --zeena-gray: #2D3235;              /* Slate 100 for secondary text - darker */
+  --zeena-gray-rgb: 45, 50, 53;
+  --zeena-primary: #F1EFED;           /* Neutral 30 for backgrounds */
+  --zeena-primary-rgb: 241, 239, 237;
+  --zeena-white: #F1EFED;             /* Light background */
+  --zeena-white-rgb: 241, 239, 237;
+}
+
+/* Dark version overrides */
+.dark-version {
+  --zeena-primary: #3C4545;           /* Dark background */
+  --zeena-primary-rgb: 60, 69, 69;
+  --zeena-white: #F1EFED;             /* Light text on dark */
+  --zeena-white-rgb: 241, 239, 237;
+  --zeena-gray: #C2D4D4;              /* Light accent for text */
+  --zeena-gray-rgb: 194, 212, 212;
+}
+
+/* Button styling with Oracle Red */
+.thm-btn,
+.main-slider__btn {
+  background-color: var(--oracle-red);
+  border-color: var(--oracle-red);
+  color: var(--neutral-30);
+}
+
+.thm-btn:hover,
+.main-slider__btn:hover {
+  background-color: #a63d2e; /* Darker Oracle Red */
+  border-color: #a63d2e;
+}
+
+/* Secondary button with Brand Yellow */
+.main-slider__btn-two {
+  background-color: var(--brand-yellow);
+  border-color: var(--brand-yellow);
+  color: var(--slate-150);
+}
+
+.main-slider__btn-two:hover {
+  background-color: #e6a239; /* Darker yellow */
+  border-color: #e6a239;
+}
+
+/* Section backgrounds */
+.dark-version .main-slider {
+  background-color: var(--slate-150);
+}
+
+.dark-version .about-one,
+.dark-version .services-one,
+.dark-version .portfolio-one {
+  background-color: var(--slate-100);
+}
+
+/* Text colors */
+.dark-version h1,
+.dark-version h2,
+.dark-version h3,
+.dark-version h4,
+.dark-version h5,
+.dark-version h6 {
+  color: var(--neutral-30);
+}
+
+.dark-version p,
+.dark-version .main-slider__text {
+  color: var(--slate-50);
+}
+
+/* Accent elements */
+.section-title__tagline {
+  color: var(--brand-yellow) !important;
+}
+
+/* Icon colors */
+.dark-version .services-one__icon {
+  color: var(--oracle-red);
+}
+
+/* Links and interactive elements */
+.dark-version a {
+  color: var(--slate-50);
+}
+
+.dark-version a:hover {
+  color: var(--brand-yellow);
+}
+
+/* Form elements */
+.dark-version input,
+.dark-version textarea {
+  background-color: var(--slate-100);
+  border-color: var(--slate-50);
+  color: var(--neutral-30);
+}
+
+/* Brand section styling */
+.brand-one__single div {
+  color: var(--slate-100) !important;
+}
+
+/* Brand section styling */
+.dark-version .brand-one {
+  background-color: var(--neutral-30);
+}
+
+.brand-one__single div {
+  color: var(--slate-100) !important;
+}
+
+/* FAQ accordion styling */
+.dark-version .accrodion-title h4 {
+  color: var(--neutral-30);
+}
+
+.dark-version .accrodion.active .accrodion-title h4 {
+  color: var(--brand-yellow);
+}
+
+/* Blog section */
+.dark-version .blog-one__title a {
+  color: var(--neutral-30);
+}
+
+.dark-version .blog-one__title a:hover {
+  color: var(--brand-yellow);
+}
+
+/* Logo styling */
+.main-menu__logo img,
+.main-menu-two__logo img,
+.main-menu-three__logo img {
+  max-height: 80px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Mobile menu logo */
+.logo-box img {
+  max-height: 70px;
+  width: auto;
+  object-fit: contain;
+}

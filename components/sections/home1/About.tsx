@@ -23,7 +23,7 @@ export default function About() {
                   <div className="about-one__img-box">
                     <div className="about-one__img-2">
                       <img
-                        src="assets/images/resources/about-one-img-2.jpg"
+                        src="assets/images/resources/about-one-img-2.webp"
                         
                       />
                       <div className="about-one__video-link">

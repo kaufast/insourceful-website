@@ -14,7 +14,7 @@ export default function Process() {
                   <div className="process-one__icon">
                     <span className="icon-zoom-in" />
                   </div>
-                  <p className="process-one__text">Research</p>
+                  <p className="process-one__text">Assessment</p>
                   <div className="process-one__count" />
                 </div>
               </li>
@@ -23,7 +23,7 @@ export default function Process() {
                   <div className="process-one__icon">
                     <span className="icon-test" />
                   </div>
-                  <p className="process-one__text">Concept</p>
+                  <p className="process-one__text">Implementation</p>
                   <div className="process-one__count" />
                 </div>
               </li>
@@ -32,7 +32,7 @@ export default function Process() {
                   <div className="process-one__icon">
                     <span className="icon-self-development" />
                   </div>
-                  <p className="process-one__text">Develop</p>
+                  <p className="process-one__text">Audit</p>
                   <div className="process-one__count" />
                 </div>
               </li>
@@ -41,7 +41,7 @@ export default function Process() {
                   <div className="process-one__icon">
                     <span className="icon-growth" />
                   </div>
-                  <p className="process-one__text">Test</p>
+                  <p className="process-one__text">Certification</p>
                   <div className="process-one__count" />
                 </div>
               </li>

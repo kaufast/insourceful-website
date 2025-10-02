@@ -33,11 +33,11 @@ export default function Funfact() {
                   <div className="counter-one__icon">
                     <span className="icon-award" />
                   </div>
-                  <p className="counter-one__text">Complete Project</p>
+                  <p className="counter-one__text">Years of Oracle JDE Expertise</p>
                   <div className="counter-one__count count-box">
                     <h3>
                       {" "}
-                      <CounterUp end={5684} />
+                      <CounterUp end={30} />+
                     </h3>
                   </div>
                 </div>
@@ -45,12 +45,12 @@ export default function Funfact() {
               <li className="wow fadeInUp" data-wow-delay="200ms">
                 <div className="counter-one__single">
                   <div className="counter-one__icon">
-                    <span className="icon-download" />
+                    <span className="icon-project-management" />
                   </div>
-                  <p className="counter-one__text">Total Download</p>
+                  <p className="counter-one__text">JD Edwards Implementations</p>
                   <div className="counter-one__count count-box">
                     <h3>
-                      <CounterUp end={5593} />
+                      <CounterUp end={80} />+
                     </h3>
                   </div>
                 </div>
@@ -58,12 +58,12 @@ export default function Funfact() {
               <li className="wow fadeInUp" data-wow-delay="300ms">
                 <div className="counter-one__single">
                   <div className="counter-one__icon">
-                    <span className="icon-feedback" />
+                    <span className="icon-location" />
                   </div>
-                  <p className="counter-one__text">Positive Review</p>
+                  <p className="counter-one__text">Countries with Global Rollouts</p>
                   <div className="counter-one__count count-box">
                     <h3>
-                      <CounterUp end={5487} />
+                      <CounterUp end={24} />+
                     </h3>
                   </div>
                 </div>
@@ -73,10 +73,10 @@ export default function Funfact() {
                   <div className="counter-one__icon">
                     <span className="icon-management" />
                   </div>
-                  <p className="counter-one__text">Team Members</p>
+                  <p className="counter-one__text">Asset-Intensive Enterprises</p>
                   <div className="counter-one__count count-box">
                     <h3>
-                      <CounterUp end={2474} />
+                      <CounterUp end={88} />
                     </h3>
                   </div>
                 </div>
@@ -84,12 +84,12 @@ export default function Funfact() {
               <li className="wow fadeInUp" data-wow-delay="500ms">
                 <div className="counter-one__single">
                   <div className="counter-one__icon">
-                    <span className="icon-award" />
+                    <span className="icon-check" />
                   </div>
-                  <p className="counter-one__text">Cup Of Coffee</p>
+                  <p className="counter-one__text">SOX & IFRS Compliance</p>
                   <div className="counter-one__count count-box">
                     <h3>
-                      <CounterUp end={6497} />
+                      <CounterUp end={100} />%
                     </h3>
                   </div>
                 </div>

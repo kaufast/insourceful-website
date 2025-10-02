@@ -21,7 +21,7 @@ export default function Portfolio() {
                   className="portfolio-one__img"
                   style={{
                     backgroundImage:
-                      "url(assets/images/project/portfolio-1-1.jpg)",
+                      "url(assets/images/project/portfolio-1-1.webp)",
                   }}
                 >
                   <div className="portfolio-one__title-box">
@@ -32,7 +32,7 @@ export default function Portfolio() {
                     </h4>
                     <div className="portfolio-one__arrow">
                       <Link
-                        href="assets/images/project/portfolio-1-1.jpg"
+                        href="assets/images/project/portfolio-1-1.webp"
                         className="img-popup"
                       >
                         <span className="icon-right-arrow1" />
@@ -48,7 +48,7 @@ export default function Portfolio() {
                   className="portfolio-one__img"
                   style={{
                     backgroundImage:
-                      "url(assets/images/project/portfolio-1-2.jpg)",
+                      "url(assets/images/project/portfolio-1-2.webp)",
                   }}
                 >
                   <div className="portfolio-one__title-box">
@@ -57,7 +57,7 @@ export default function Portfolio() {
                     </h4>
                     <div className="portfolio-one__arrow">
                       <Link
-                        href="assets/images/project/portfolio-1-2.jpg"
+                        href="assets/images/project/portfolio-1-2.webp"
                         className="img-popup"
                       >
                         <span className="icon-right-arrow1" />
@@ -73,18 +73,18 @@ export default function Portfolio() {
                   className="portfolio-one__img"
                   style={{
                     backgroundImage:
-                      "url(assets/images/project/portfolio-1-3.jpg)",
+                      "url(assets/images/project/portfolio-1-3.webp)",
                   }}
                 >
                   <div className="portfolio-one__title-box">
                     <h4 className="portfolio-one__title">
                       <Link href="portfolio-details">
-                        Utilities: ERP Consolidation
+                        Wine & Beverage: Production ERP
                       </Link>
                     </h4>
                     <div className="portfolio-one__arrow">
                       <Link
-                        href="assets/images/project/portfolio-1-3.jpg"
+                        href="assets/images/project/portfolio-1-3.webp"
                         className="img-popup"
                       >
                         <span className="icon-right-arrow1" />
@@ -100,7 +100,7 @@ export default function Portfolio() {
                   className="portfolio-one__img"
                   style={{
                     backgroundImage:
-                      "url(assets/images/project/portfolio-1-4.jpg)",
+                      "url(assets/images/project/portfolio-1-4.webp)",
                   }}
                 >
                   <div className="portfolio-one__title-box">
@@ -109,7 +109,7 @@ export default function Portfolio() {
                     </h4>
                     <div className="portfolio-one__arrow">
                       <Link
-                        href="assets/images/project/portfolio-1-4.jpg"
+                        href="assets/images/project/portfolio-1-4.webp"
                         className="img-popup"
                       >
                         <span className="icon-right-arrow1" />

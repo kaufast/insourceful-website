@@ -2,9 +2,13 @@
 import { useEffect, useRef, useState } from 'react'
 import Counter from './Counter'
 
-export default function CounterUp({ end }) {
+interface CounterUpProps {
+    end: number;
+}
+
+export default function CounterUp({ end }: CounterUpProps) {
     const [inViewport, setInViewport] = useState(false)
-    const elementRef = useRef(null)
+    const elementRef = useRef<HTMLSpanElement>(null)
 
     useEffect(() => {
         const observer = new IntersectionObserver(

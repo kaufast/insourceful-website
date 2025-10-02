@@ -57,7 +57,7 @@ export default function Home() {
 
     return (
         <>
-        <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Portfolio Details">
+        <Layout headerStyle={2} footerStyle={1} headTitle="Portfolio Details" breadcrumbTitle="Portfolio Details" wrapperCls="">
       
         {/*Portfolio Details Start */}
         <section className="portfolio-details">

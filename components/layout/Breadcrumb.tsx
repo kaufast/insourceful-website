@@ -1,5 +1,10 @@
 import Link from "next/link"
-export default function Breadcrumb({ breadcrumbTitle }) {
+
+interface BreadcrumbProps {
+    breadcrumbTitle: string;
+}
+
+export default function Breadcrumb({ breadcrumbTitle }: BreadcrumbProps) {
     return (
         <>
 

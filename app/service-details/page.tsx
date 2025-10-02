@@ -8,10 +8,11 @@ export default function Home() {
           key: 1,
       })
   
-      const handleToggle = (key) => {
+      const handleToggle = (key: number) => {
           if (isActive.key === key) {
               setIsActive({
                   status: false,
+                  key: 0,
               })
           } else {
               setIsActive({

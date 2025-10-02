@@ -1,18 +1,14 @@
 'use client';
-import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import { useCallback, useEffect, useRef, useState } from 'react';
 
-// Dynamically import Isotope with SSR disabled
-const Isotope = dynamic(() => import('isotope-layout'), { ssr: false });
-
 export default function PortfolioFilter1() {
-    const isotope = useRef(null);
+    const isotope = useRef<any>(null);
     const [filterKey, setFilterKey] = useState('*');
 
     // Initialize isotope
     useEffect(() => {
-        let isoInstance;
+        let isoInstance: any;
 
         const loadIsotope = async () => {
             const IsotopeLib = (await import('isotope-layout')).default;
@@ -44,11 +40,11 @@ export default function PortfolioFilter1() {
         }
     }, [filterKey]);
 
-    const handleFilterKeyChange = useCallback((key) => () => {
+    const handleFilterKeyChange = useCallback((key: string) => () => {
         setFilterKey(key);
     }, []);
 
-    const activeBtn = (key) => (key === filterKey ? 'filter active' : 'filter');
+    const activeBtn = (key: string) => (key === filterKey ? 'filter active' : 'filter');
 
     // Portfolio item data
     const portfolioItems = [

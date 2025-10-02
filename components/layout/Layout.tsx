@@ -12,9 +12,20 @@ import Header3 from './header/Header3'
 import Footer1 from './footer/Footer1'
 import Footer2 from './footer/Footer2'
 import Footer3 from './footer/Footer3'
+import GoogleAnalytics from '../analytics/GoogleAnalytics'
+import GoogleTagManager from '../analytics/GoogleTagManager'
 
-export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumbTitle, children, wrapperCls }) {
-    const [scroll, setScroll] = useState(0)
+interface LayoutProps {
+    headerStyle?: number;
+    footerStyle?: number;
+    headTitle?: string;
+    breadcrumbTitle?: string;
+    children: React.ReactNode;
+    wrapperCls?: string;
+}
+
+export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumbTitle, children, wrapperCls }: LayoutProps) {
+    const [scroll, setScroll] = useState<boolean>(false)
     // Mobile Menu
     const [isMobileMenu, setMobileMenu] = useState(false)
         const handleMobileMenu = () => {
@@ -41,10 +52,10 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
         try {
             const WOW = require('wowjs')
             if (WOW && WOW.WOW) {
-                window.wow = new WOW.WOW({
+                (window as any).wow = new WOW.WOW({
                     live: false
                 })
-                window.wow.init()
+                ;(window as any).wow.init()
             }
         } catch (error) {
             console.warn('WOW.js failed to initialize:', error)
@@ -59,12 +70,22 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
     }, [])
     return (
         <>
+            {/* Google Tag Manager */}
+            {process.env.NEXT_PUBLIC_GTM_ID && (
+              <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID} />
+            )}
+            
+            {/* Google Analytics */}
+            {process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID && (
+              <GoogleAnalytics measurementId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />
+            )}
+            
             <DataBg />
             <div className={`page-wrapper ${wrapperCls ? wrapperCls : ""}`} id="#top">
-                {!headerStyle && <Header1 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} handlePopup={handlePopup} isSidebar={isSidebar} handleSidebar={handleSidebar} />}
-                {headerStyle == 1 ? <Header1 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} handlePopup={handlePopup} isSidebar={isSidebar} handleSidebar={handleSidebar} /> : null}
-                {headerStyle == 2 ? <Header2 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} handlePopup={handlePopup} isSidebar={isSidebar} handleSidebar={handleSidebar} /> : null}
-                {headerStyle == 3 ? <Header3 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} handlePopup={handlePopup} isSidebar={isSidebar} handleSidebar={handleSidebar} /> : null}
+                {!headerStyle && <Header1 scroll={scroll} handleMobileMenu={handleMobileMenu} handlePopup={handlePopup} />}
+                {headerStyle == 1 ? <Header1 scroll={scroll} handleMobileMenu={handleMobileMenu} handlePopup={handlePopup} /> : null}
+                {headerStyle == 2 ? <Header2 scroll={scroll} handlePopup={handlePopup} handleMobileMenu={handleMobileMenu} /> : null}
+                {headerStyle == 3 ? <Header3 scroll={scroll} handlePopup={handlePopup} handleMobileMenu={handleMobileMenu} /> : null}
 
 
                 <Sidebar isSidebar={isSidebar} handleSidebar={handleSidebar} />

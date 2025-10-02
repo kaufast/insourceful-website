@@ -1,6 +1,8 @@
 
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
+import ContactForm from "@/components/forms/ContactForm"
+import NewsletterForm from "@/components/forms/NewsletterForm"
 export default function Home() {
 
     return (
@@ -71,57 +73,7 @@ export default function Home() {
                     </div>
                     <div className="col-xl-8 col-lg-7">
                     <div className="contact-page__right">
-                        <div className="contact-page__form-box">
-                        <form
-                            action="assets/inc/sendemail.php"
-                            className="contact-page__form contact-form-validated"
-                            noValidate
-                        >
-                            <div className="row">
-                            <div className="col-xl-6">
-                                <div className="contact-page__input-box">
-                                <input type="text" placeholder="Full name" name="name" />
-                                </div>
-                            </div>
-                            <div className="col-xl-6">
-                                <div className="contact-page__input-box">
-                                <input
-                                    type="email"
-                                    placeholder="Email Address"
-                                    name="email"
-                                />
-                                </div>
-                            </div>
-                            <div className="col-xl-6">
-                                <div className="contact-page__input-box">
-                                <input type="text" placeholder="Phone" name="phone" />
-                                </div>
-                            </div>
-                            <div className="col-xl-6">
-                                <div className="contact-page__input-box">
-                                <input type="text" placeholder="Subject" name="Subject" />
-                                </div>
-                            </div>
-                            </div>
-                            <div className="row">
-                            <div className="col-xl-12">
-                                <div className="contact-page__input-box text-message-box">
-                                <textarea
-                                    name="message"
-                                    placeholder="Your Message"
-                                    defaultValue={""}
-                                />
-                                </div>
-                                <div className="contact-page__btn-box">
-                                <button type="submit" className="contact-page__btn">
-                                    Send Message<span>+</span>
-                                </button>
-                                </div>
-                            </div>
-                            </div>
-                        </form>
-                        <div className="result" />
-                        </div>
+                        <ContactForm />
                     </div>
                     </div>
                 </div>
@@ -141,18 +93,7 @@ export default function Home() {
                     />
                     <h3 className="newsletter-one__title">Newsletter</h3>
                     <p className="newsletter-one__sub-title">Stay updated</p>
-                    <div className="newsletter-one__form mc-form" data-url="MC_FORM_URL">
-                    <input type="email" name="EMAIL" placeholder="Email address" />
-                    <button type="submit" className="newsletter-one__btn">
-                        <span>
-                        Subscribe
-                        <i className="icon-arrow" />
-                        </span>
-                    </button>
-                    </div>
-                    {/* /.subscribe-one__form */}
-                    <div className="mc-form__response" />
-                    {/* /.mc-form__response */}
+                    <NewsletterForm />
                 </div>
                 </div>
             </section>

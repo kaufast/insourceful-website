@@ -2,7 +2,13 @@ import Link from "next/link"
 import Menu from "../Menu"
 import MobileMenu from "../MobileMenu"
 
-export default function Header1({ scroll, handleMobileMenu, handlePopup }) {
+interface Header1Props {
+    scroll: boolean;
+    handleMobileMenu: () => void;
+    handlePopup: () => void;
+}
+
+export default function Header1({ scroll, handleMobileMenu, handlePopup }: Header1Props) {
     return (
         <>
 

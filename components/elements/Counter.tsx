@@ -1,9 +1,13 @@
 import { useEffect, useRef, useState } from 'react'
 
+interface CounterProps {
+    end: number;
+    duration: number;
+}
 
-export default function Counter({ end, duration }) {
+export default function Counter({ end, duration }: CounterProps) {
     const [count, setCount] = useState(0)
-    const countRef = useRef(null)
+    const countRef = useRef<HTMLSpanElement>(null)
     const increment = end / duration
 
     useEffect(() => {

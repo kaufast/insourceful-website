@@ -1,6 +1,11 @@
 import Link from "next/link"
 
-export default function SearchPopup({ isPopup, handlePopup }) {
+interface SearchPopupProps {
+    isPopup: boolean;
+    handlePopup: () => void;
+}
+
+export default function SearchPopup({ isPopup, handlePopup }: SearchPopupProps) {
     return (
         <>
             

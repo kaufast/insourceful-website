@@ -1,5 +1,6 @@
 import "../public/assets/css/zeena.css"
 import "../public/assets/css/logo-sizing.css"
+import "../public/assets/css/contact-form.css"
 // import "../public/assets/css/insourceful-theme.css"
 import 'swiper/css'
 // import "swiper/css/navigation"

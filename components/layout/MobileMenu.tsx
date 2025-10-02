@@ -2,18 +2,24 @@
 import Link from "next/link";
 import { useState } from "react";
 
-const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
+interface MobileMenuProps {
+    isSidebar?: boolean;
+    handleMobileMenu: () => void;
+    handleSidebar?: () => void;
+}
+
+const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }: MobileMenuProps) => {
   const [isActive, setIsActive] = useState({
     status: false,
-    key: "",
+    key: 0,
     subMenuKey: "",
   });
 
-  const handleToggle = (key, subMenuKey = "") => {
+  const handleToggle = (key: number, subMenuKey: string = "") => {
     if (isActive.key === key && isActive.subMenuKey === subMenuKey) {
       setIsActive({
         status: false,
-        key: "",
+        key: 0,
         subMenuKey: "",
       });
     } else {

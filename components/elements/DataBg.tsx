@@ -5,7 +5,7 @@ export default function DataBg() {
         const elements = document.querySelectorAll('[data-bg]')
 
         elements.forEach((element) => {
-            element.style.backgroundImage = `url(${element.getAttribute('data-bg')})`
+            (element as HTMLElement).style.backgroundImage = `url(${element.getAttribute('data-bg')})`
         })
     }, [])
     return (

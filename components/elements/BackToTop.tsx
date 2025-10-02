@@ -1,5 +1,5 @@
 
-export default function BackToTop({ scroll }) {
+export default function BackToTop({ scroll }: { scroll: boolean }) {
 
     return (
         <>

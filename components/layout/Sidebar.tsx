@@ -1,6 +1,11 @@
 import Link from "next/link"
 
-export default function Sidebar({ isSidebar, handleSidebar }) {
+interface SidebarProps {
+    isSidebar: boolean;
+    handleSidebar: () => void;
+}
+
+export default function Sidebar({ isSidebar, handleSidebar }: SidebarProps) {
     return (
         <>
 

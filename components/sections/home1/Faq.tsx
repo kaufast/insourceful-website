@@ -6,10 +6,11 @@ export default function Faq() {
     key: 1,
   });
 
-  const handleToggle = (key) => {
+  const handleToggle = (key: number) => {
     if (isActive.key === key) {
       setIsActive({
         status: false,
+        key: 1,
       });
     } else {
       setIsActive({

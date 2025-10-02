@@ -14,10 +14,10 @@ export default function Feature() {
                 </div>
                 <div className="feature-one__content">
                   <h3 className="feature-one__title">
-                    <Link href="services-details">Manage It Services</Link>
+                    <Link href="services-details">Managed IT Services</Link>
                   </h3>
                   <p className="feature-one__text">
-                    Complete account of system, and expound the actual
+                    End-to-end ERP support to maintain, monitor, and optimize enterprise applications worldwide.
                   </p>
                 </div>
               </div>
@@ -31,10 +31,10 @@ export default function Feature() {
                 </div>
                 <div className="feature-one__content">
                   <h3 className="feature-one__title">
-                    <Link href="services-details">Digital Experience</Link>
+                    <Link href="services-details">Digital Innovation</Link>
                   </h3>
                   <p className="feature-one__text">
-                    Complete account of system, and expound the actual
+                    Enhance business agility with IoT, automation, analytics, and user experience improvements.
                   </p>
                 </div>
               </div>
@@ -51,7 +51,7 @@ export default function Feature() {
                     <Link href="services-details">Cyber Security</Link>
                   </h3>
                   <p className="feature-one__text">
-                    Complete account of system, and expound the actual
+                    Safeguard ERP systems with compliance frameworks, access controls, and proactive threat monitoring.
                   </p>
                 </div>
               </div>
@@ -65,10 +65,10 @@ export default function Feature() {
                 </div>
                 <div className="feature-one__content">
                   <h3 className="feature-one__title">
-                    <Link href="services-details">Deployment Service</Link>
+                    <Link href="services-details">Deployment Services</Link>
                   </h3>
                   <p className="feature-one__text">
-                    Complete account of system, and expound the actual
+                    Seamless ERP rollouts, cloud migrations, and upgrades aligned to industry best practices.
                   </p>
                 </div>
               </div>

@@ -22,7 +22,7 @@ export default function Home() {
     return (
         <>
         <div className="dark-version">
-            <Layout headerStyle={1} footerStyle={1}>
+            <Layout headerStyle={1} footerStyle={1} headTitle="Home Dark" breadcrumbTitle="" wrapperCls="">
                 <Banner />
                 <Brand />
                 <Feature />

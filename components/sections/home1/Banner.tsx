@@ -62,7 +62,7 @@ export default function Banner() {
                     Oracle JD Edwards | Enterprise Consulting
                   </p>
                   <h2 className="main-slider__title">
-                    Engineering Digital Excellence <br /> for Asset-Intensive Enterprises
+                    Engineering Excellence <br /> for Asset-Intensive Enterprises
                   </h2>
                   <p className="main-slider__text">
                     Expert Oracle JD Edwards consulting for Mining, Oil & Gas, Pharmaceuticals, and Utilities.
@@ -106,7 +106,7 @@ export default function Banner() {
                     Oracle JD Edwards | Enterprise Consulting
                   </p>
                   <h2 className="main-slider__title">
-                    Engineering Digital Excellence <br /> for Asset-Intensive Enterprises
+                    Engineering Excellence <br /> for Asset-Intensive Enterprises
                   </h2>
                   <p className="main-slider__text">
                     Expert Oracle JD Edwards consulting for Mining, Oil & Gas, Pharmaceuticals, and Utilities.
@@ -150,7 +150,7 @@ export default function Banner() {
                     Oracle JD Edwards | Enterprise Consulting
                   </p>
                   <h2 className="main-slider__title">
-                    Engineering Digital Excellence <br /> for Asset-Intensive Enterprises
+                    Engineering Excellence <br /> for Asset-Intensive Enterprises
                   </h2>
                   <p className="main-slider__text">
                     Expert Oracle JD Edwards consulting for Mining, Oil & Gas, Pharmaceuticals, and Utilities.

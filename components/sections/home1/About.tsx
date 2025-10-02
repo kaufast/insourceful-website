@@ -14,7 +14,7 @@ export default function About() {
                   data-wow-duration="2500ms"
                 >
                   <img
-                    src="assets/images/resources/about-one-img-1.jpg"
+                    src="assets/images/resources/about-one-img-1.webp"
                     
                   />
                   <div className="about-one__experience-text">
@@ -94,7 +94,7 @@ export default function About() {
                 <div className="about-one__it-solution">
                   <div className="about-one__it-solution-img">
                     <img
-                      src="assets/images/resources/about-one-it-solution-img.jpg"
+                      src="assets/images/resources/about-one-it-solution-img.webp"
                       
                     />
                   </div>

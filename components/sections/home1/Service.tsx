@@ -26,7 +26,7 @@ export default function Service() {
                   <h3 className="services-one__title">
                     <Link href="services-details">
                       ERP
-                      <br /> Excellence
+                      <br /> Implementations
                     </Link>
                   </h3>
                 </div>
@@ -52,7 +52,7 @@ export default function Service() {
                   <h3 className="services-one__title">
                     <Link href="services-details">
                       MOS
-                      <br /> Integration
+                      <br /> Deployment
                     </Link>
                   </h3>
                 </div>
@@ -64,7 +64,7 @@ export default function Service() {
                   </div>
                   <h3 className="services-one__title">
                     <Link href="services-details">
-                      Strategic
+                      Operational
                       <br /> Advisory
                     </Link>
                   </h3>
@@ -93,7 +93,7 @@ export default function Service() {
                   <h3 className="services-one__title">
                     <Link href="services-details">
                       Process
-                      <br /> Optimization
+                      <br /> Excellence
                     </Link>
                   </h3>
                 </div>
@@ -105,8 +105,8 @@ export default function Service() {
                   </div>
                   <h3 className="services-one__title">
                     <Link href="services-details">
-                      Strategic
-                      <br /> Advisory
+                      Governance &amp;
+                      <br /> Compliance
                     </Link>
                   </h3>
                 </div>
@@ -118,8 +118,8 @@ export default function Service() {
                   </div>
                   <h3 className="services-one__title">
                     <Link href="services-details">
-                      Training
-                      <br /> &amp; Support
+                      Training &amp; Knowledge
+                      <br /> Transfer
                     </Link>
                   </h3>
                 </div>

@@ -9,6 +9,7 @@ import "swiper/css/pagination"
 import 'swiper/css/free-mode';
 import { openSans, poppins } from '@/lib/font'
 import StructuredData from '@/components/seo/StructuredData'
+import GoogleAnalytics, { GTMBodyScript } from '@/components/GoogleAnalytics'
 export const metadata = {
     title: {
         default: 'InSourceful - Enterprise Technology Consulting Services',
@@ -71,7 +72,11 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="en" className={`${openSans.variable} ${poppins.variable}`}>
+            <head>
+                <GoogleAnalytics />
+            </head>
             <body>
+                <GTMBodyScript />
                 <StructuredData />
                 {children}
             </body>

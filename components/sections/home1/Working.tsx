@@ -25,9 +25,9 @@ export default function Benefit() {
             <div className="col-xl-5">
               <div className="benefits-one__left">
                 <div
-                  className="benefits-one__img wow slideInLeft"
-                  data-wow-delay="100ms"
-                  data-wow-duration="2500ms"
+                  className="benefits-one__img"
+                  data-aos="slide-left"
+                  data-aos-delay="100"
                 >
                   <img
                     src="assets/images/resources/benefits-one-img-1.webp"

@@ -10,22 +10,27 @@ export default function Menu() {
         <li>
           <Link href="/">Home</Link>
         </li>
-        <li>
-          <Link href="/">About</Link>
-        </li>
         <li className="dropdown">
-          <Link href="/">Services</Link>
+          <Link href="/about">About</Link>
           <ul className="sub-menu">
             <li>
-              <Link href="/">Services</Link>
+              <Link href="/about">About</Link>
             </li>
             <li>
-              <Link href="/">Success Stories</Link>
+              <Link href="/rigo-melchor">Our Team</Link>
+            </li>
+          </ul>
+        </li>
+        <li className="dropdown">
+          <Link href="/services">Services</Link>
+          <ul className="sub-menu">
+            <li>
+              <Link href="/services">Services</Link>
             </li>
           </ul>
         </li>
         <li>
-          <Link href="contact">Contact</Link>
+          <Link href="/contact">Contact</Link>
         </li>
       </ul>
     </>

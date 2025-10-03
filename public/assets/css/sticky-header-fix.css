@@ -1,0 +1,26 @@
+/* Fix for double navigation bar */
+.stricky-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background: #000000;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-100%);
+    transition: all 0.3s ease;
+}
+
+.stricky-header.stricky-fixed {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure main header stays in place */
+.main-header {
+    position: relative;
+    z-index: 999;
+}

@@ -38,18 +38,23 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }: MobileMenuPr
                     <span className="mobile-nav__close mobile-nav__toggler" onClick={handleMobileMenu} ><i className="fa fa-times"></i></span>
 
                     <div className="logo-box">
-                        <Link href="/" aria-label="logo image"><img src="assets/images/resources/insourceful-consulting-white.avif" width="750" alt="InSourceful Logo" /></Link>
+                        <Link href="/" aria-label="logo image"><img src="assets/images/resources/insourceful-consulting-white.webp" width="750" alt="InSourceful Logo" /></Link>
                     </div>
 
                     <div className="mobile-nav__container">
                         <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul className="main-menu__list">
                                 <li><Link href="/">Home</Link></li>
-                                <li><Link href="/">About</Link></li>
-                                <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}><Link href="/">Services</Link>
+                                <li className={isActive.key == 1 ? "dropdown current" : "dropdown"}><Link href="/about">About</Link>
+                                    <ul style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>                                 
+                                        <li><Link href="/about">About</Link></li>
+                                        <li><Link href="/rigo-melchor">Our Team</Link></li>
+                                    </ul>
+                                    <button className={isActive.key == 1 ? "expanded open" : ""} onClick={() => handleToggle(1)}><span className="fa fa-angle-right" /></button>
+                                </li>
+                                <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}><Link href="/services">Services</Link>
                                     <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>                                 
-                                        <li><Link href="/">Services</Link></li>
-                                        <li><Link href="/">Success Stories</Link></li>
+                                        <li><Link href="/services">Services</Link></li>
                                     </ul>
                                     <button className={isActive.key == 2 ? "expanded open" : ""} onClick={() => handleToggle(2)}><span className="fa fa-angle-right" /></button>
                                 </li>

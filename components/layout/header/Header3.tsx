@@ -17,7 +17,7 @@ export default function Header3({ scroll, handlePopup, handleMobileMenu }: Heade
             <div className="main-menu-three__wrapper-inner">
               <div className="main-menu-three__logo">
                 <a href="/">
-                  <img src="assets/images/resources/insourceful-consulting-white.avif" alt="InSourceful Logo" style={{height: '400px', width: 'auto'}} />
+                  <img src="assets/images/resources/insourceful-consulting-white.webp" alt="InSourceful Logo" style={{height: '400px', width: 'auto'}} />
                 </a>
               </div>
               <div className="main-menu-three__top">
@@ -118,7 +118,7 @@ export default function Header3({ scroll, handlePopup, handleMobileMenu }: Heade
             <div className="main-menu-three__wrapper-inner">
               <div className="main-menu-three__logo">
                 <a href="/">
-                  <img src="assets/images/resources/insourceful-consulting-white.avif" alt="InSourceful Logo" style={{height: '400px', width: 'auto'}} />
+                  <img src="assets/images/resources/insourceful-consulting-white.webp" alt="InSourceful Logo" style={{height: '400px', width: 'auto'}} />
                 </a>
               </div>
               <div className="main-menu-three__top">

@@ -8,8 +8,9 @@ export default function Footer3() {
       <div className="site-footer-three__top">
         <div className="row">
           <div
-            className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay="100ms"
+            className="col-xl-4 col-lg-6 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="100"
           >
             <div className="footer-widget-three__column footer-widget-three__about">
               <p className="footer-widget-three__about-text">
@@ -37,8 +38,9 @@ export default function Footer3() {
             </div>
           </div>
           <div
-            className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay="200ms"
+            className="col-xl-2 col-lg-6 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="200"
           >
             <div className="footer-widget-three__column footer-widget-three__explore">
               <div className="footer-widget-three__title-box">
@@ -64,8 +66,9 @@ export default function Footer3() {
             </div>
           </div>
           <div
-            className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay="300ms"
+            className="col-xl-3 col-lg-6 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="300"
           >
             <div className="footer-widget-three__column footer-widget-three__company">
               <div className="footer-widget-three__title-box">
@@ -91,8 +94,9 @@ export default function Footer3() {
             </div>
           </div>
           <div
-            className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-            data-wow-delay="400ms"
+            className="col-xl-3 col-lg-6 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="400"
           >
             <div className="footer-widget-three__column footer-widget-three__contact">
               <div className="footer-widget-three__title-box">

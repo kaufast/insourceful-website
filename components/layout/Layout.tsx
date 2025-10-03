@@ -14,6 +14,8 @@ import Footer2 from './footer/Footer2'
 import Footer3 from './footer/Footer3'
 import GoogleAnalytics from '../analytics/GoogleAnalytics'
 import GoogleTagManager from '../analytics/GoogleTagManager'
+import CookieConsent from '../elements/CookieConsent'
+import { initAOS } from '@/lib/aos'
 
 interface LayoutProps {
     headerStyle?: number;
@@ -49,25 +51,25 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
     const handleSidebar = () => setSidebar(!isSidebar)
 
     useEffect(() => {
-        try {
-            const WOW = require('wowjs')
-            if (WOW && WOW.WOW) {
-                (window as any).wow = new WOW.WOW({
-                    live: false
-                })
-                ;(window as any).wow.init()
-            }
-        } catch (error) {
-            console.warn('WOW.js failed to initialize:', error)
-        }
+        // Initialize AOS (Animate On Scroll) animations
+        // Temporarily disabled to fix originalFactory.call error
+        // initAOS()
+    }, [])
 
-        document.addEventListener("scroll", () => {
+    useEffect(() => {
+        const handleScroll = () => {
             const scrollCheck = window.scrollY > 100
             if (scrollCheck !== scroll) {
                 setScroll(scrollCheck)
             }
-        })
-    }, [])
+        }
+        
+        window.addEventListener("scroll", handleScroll)
+        
+        return () => {
+            window.removeEventListener("scroll", handleScroll)
+        }
+    }, [scroll])
     return (
         <>
             {/* Google Tag Manager */}
@@ -101,6 +103,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
                 {footerStyle == 3 ? < Footer3 /> : null}
             </div>
             <BackToTop scroll={scroll} />
+            <CookieConsent />
         </>
     )
 }

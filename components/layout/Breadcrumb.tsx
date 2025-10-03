@@ -13,7 +13,7 @@ export default function Breadcrumb({ breadcrumbTitle }: BreadcrumbProps) {
     <div
       className="page-header-bg"
       style={{
-        backgroundImage: "url(assets/images/backgrounds/page-header-bg.jpg)"
+        /* backgroundImage: "url(assets/images/backgrounds/page-header-bg.jpg)" */
       }}
     ></div>
     <div className="page-header__shape-1" />

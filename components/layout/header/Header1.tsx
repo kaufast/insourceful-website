@@ -65,7 +65,7 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup }: Heade
                 <div className="main-menu__left">
                     <div className="main-menu__logo">
                     <Link href="/">
-                        <img src="assets/images/resources/insourceful-consulting-white.avif" alt="InSourceful Logo" style={{height: '400px', width: 'auto'}} />
+                        <img src="assets/images/resources/insourceful-consulting-white.webp" alt="InSourceful Logo" style={{height: '50px', width: 'auto'}} />
                     </Link>
                     </div>
                     <div className="main-menu__main-menu-box">
@@ -103,47 +103,32 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup }: Heade
         <div className={`stricky-header stricked-menu main-menu ${scroll ? "stricky-fixed" : ""}`}>
             <div className="sticky-header__content">
                 <nav className="main-menu">
-            <div className="main-menu__wrapper">
-                <div className="main-menu__wrapper-inner">
-                <div className="main-menu__left">
-                    <div className="main-menu__logo">
-                    <Link href="/">
-                        <img src="assets/images/resources/insourceful-consulting-white.avif" alt="InSourceful Logo" style={{height: '400px', width: 'auto'}} />
-                    </Link>
+                    <div className="main-menu__wrapper">
+                        <div className="main-menu__wrapper-inner">
+                            <div className="main-menu__left">
+                                <div className="main-menu__logo">
+                                    <Link href="/">
+                                        <img src="assets/images/resources/insourceful-consulting-white.webp" alt="InSourceful Logo" style={{height: '60px', width: 'auto'}} />
+                                    </Link>
+                                </div>
+                                <div className="main-menu__main-menu-box">
+                                    <Link onClick={handleMobileMenu} href="#" className="mobile-nav__toggler">
+                                        <i className="fa fa-bars" />
+                                    </Link>
+                                    <Menu/>
+                                </div>
+                            </div>
+                            <div className="main-menu__right">
+                                <div className="main-menu__btn-box">
+                                    <Link href="contact" className="main-menu__btn">
+                                        Schedule Consultation <i className="fas fa-plus" />
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div className="main-menu__main-menu-box">
-                    <Link href="#" className="mobile-nav__toggler">
-                        <i className="fa fa-bars" />
-                    </Link>
-                    <Menu/>
-                    </div>
-                    <div className="main-menu__search-cart-box">
-                    <div className="main-menu__search-box">
-                        <Link
-                        href="#"
-                        className="main-menu__search search-toggler icon-search"
-                        />
-                    </div>
-                    <div className="main-menu__cart-box">
-                        <Link
-                        href="tel:+17208788654"
-                        className="main-menu__cart fas fa-phone"
-                        />
-                    </div>
-                    </div>
-                </div>
-                <div className="main-menu__right">
-                    <div className="main-menu__btn-box">
-                    <Link href="contact" className="main-menu__btn">
-                        Schedule Consultation <i className="fas fa-plus" />
-                    </Link>
-                    </div>
-                </div>
-                </div>
+                </nav>
             </div>
-            </nav>
-            </div>
-            
         </div>
         {/* /.stricky-header */}
 

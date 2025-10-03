@@ -22,8 +22,9 @@ export default function Footer1() {
             <div className="container">
                 <div className="row">
                 <div
-                    className="col-xl-2 col-lg-2 col-md-6 wow fadeInUp"
-                    data-wow-delay="100ms"
+                    className="col-xl-2 col-lg-2 col-md-6"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
                 >
                     <div className="footer-widget__column footer-widget__about">
                     <div className="footer-widget__title-box">
@@ -49,8 +50,9 @@ export default function Footer1() {
                     </div>
                 </div>
                 <div
-                    className="col-xl-2 col-lg-2 col-md-6 wow fadeInUp"
-                    data-wow-delay="200ms"
+                    className="col-xl-2 col-lg-2 col-md-6"
+                    data-aos="fade-up"
+                    data-aos-delay="200"
                 >
                     <div className="footer-widget__column footer-widget__explore">
                     <div className="footer-widget__title-box">
@@ -76,8 +78,9 @@ export default function Footer1() {
                     </div>
                 </div>
                 <div
-                    className="col-xl-2 col-lg-2 col-md-6 wow fadeInUp"
-                    data-wow-delay="300ms"
+                    className="col-xl-2 col-lg-2 col-md-6"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
                 >
                     <div className="footer-widget__column footer-widget__links">
                     <div className="footer-widget__title-box">
@@ -103,8 +106,9 @@ export default function Footer1() {
                     </div>
                 </div>
                 <div
-                    className="col-xl-3 col-lg-3 col-md-6 wow fadeInUp"
-                    data-wow-delay="400ms"
+                    className="col-xl-3 col-lg-3 col-md-6"
+                    data-aos="fade-up"
+                    data-aos-delay="400"
                 >
                     <div className="footer-widget__column footer-widget__blog">
                     <div className="footer-widget__title-box">
@@ -130,8 +134,9 @@ export default function Footer1() {
                     </div>
                 </div>
                 <div
-                    className="col-xl-3 col-lg-3 col-md-6 wow fadeInUp"
-                    data-wow-delay="500ms"
+                    className="col-xl-3 col-lg-3 col-md-6"
+                    data-aos="fade-up"
+                    data-aos-delay="500"
                 >
                     <div className="footer-widget__column footer-widget__contact">
                     <div className="footer-widget__title-box">

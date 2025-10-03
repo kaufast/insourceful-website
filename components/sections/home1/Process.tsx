@@ -9,7 +9,7 @@ export default function Process() {
           </div>
           <div className="container">
             <ul className="process-one__process-list list-unstyled">
-              <li className="wow fadeInUp" data-wow-delay="100ms">
+              <li data-aos="fade-up" data-aos-delay="100">
                 <div className="process-one__single">
                   <div className="process-one__icon">
                     <span className="icon-zoom-in" />
@@ -18,7 +18,7 @@ export default function Process() {
                   <div className="process-one__count" />
                 </div>
               </li>
-              <li className="wow fadeInUp" data-wow-delay="200ms">
+              <li data-aos="fade-up" data-aos-delay="200">
                 <div className="process-one__single">
                   <div className="process-one__icon">
                     <span className="icon-test" />
@@ -27,7 +27,7 @@ export default function Process() {
                   <div className="process-one__count" />
                 </div>
               </li>
-              <li className="wow fadeInUp" data-wow-delay="300ms">
+              <li data-aos="fade-up" data-aos-delay="300">
                 <div className="process-one__single">
                   <div className="process-one__icon">
                     <span className="icon-self-development" />
@@ -36,7 +36,7 @@ export default function Process() {
                   <div className="process-one__count" />
                 </div>
               </li>
-              <li className="wow fadeInUp" data-wow-delay="400ms">
+              <li data-aos="fade-up" data-aos-delay="400">
                 <div className="process-one__single">
                   <div className="process-one__icon">
                     <span className="icon-growth" />

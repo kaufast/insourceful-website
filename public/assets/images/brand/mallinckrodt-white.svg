@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80">
+  <!-- Mallinckrodt text -->
+  <g transform="translate(10,25)">
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">
+      Mallinckrodt
+    </text>
+  </g>
+  
+  <!-- Medical cross symbol -->
+  <g transform="translate(260,20)">
+    <rect x="8" y="0" width="4" height="30" fill="white"/>
+    <rect x="0" y="13" width="20" height="4" fill="white"/>
+  </g>
+</svg>

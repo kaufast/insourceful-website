@@ -69,14 +69,13 @@ export default function Home() {
     <>
       <Layout headerStyle={2} footerStyle={1} headTitle="About Us" breadcrumbTitle="About Us" wrapperCls="">
         {/*Brand One Start*/}
-        <section className="brand-one">
+        {/* <section className="brand-one">
           <div className="brand-one__inner">
             <Swiper
               {...swiperOptions}
               className="brand-one__carousel thm-owl__carousel owl-theme owl-carousel"
             >
               <SwiperSlide>
-                {/*Brand One Single*/}
                 <div className="brand-one__single">
                   <div className="brand-one__img">
                     <img src="assets/images/brand/brand-1-1.png"  />
@@ -84,7 +83,6 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                {/*Brand One Single*/}
                 <div className="brand-one__single">
                   <div className="brand-one__img">
                     <img src="assets/images/brand/brand-1-2.png"  />
@@ -92,7 +90,6 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                {/*Brand One Single*/}
                 <div className="brand-one__single">
                   <div className="brand-one__img">
                     <img src="assets/images/brand/brand-1-3.png"  />
@@ -100,7 +97,6 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                {/*Brand One Single*/}
                 <div className="brand-one__single">
                   <div className="brand-one__img">
                     <img src="assets/images/brand/brand-1-4.png"  />
@@ -108,7 +104,6 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                {/*Brand One Single*/}
                 <div className="brand-one__single">
                   <div className="brand-one__img">
                     <img src="assets/images/brand/brand-1-5.png"  />
@@ -116,7 +111,6 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                {/*Brand One Single*/}
                 <div className="brand-one__single">
                   <div className="brand-one__img">
                     <img src="assets/images/brand/brand-1-4.png"  />
@@ -124,7 +118,6 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                {/*Brand One Single*/}
                 <div className="brand-one__single">
                   <div className="brand-one__img">
                     <img src="assets/images/brand/brand-1-5.png"  />
@@ -132,9 +125,8 @@ export default function Home() {
                 </div>
               </SwiperSlide>
             </Swiper>
-            {/* If we need navigation buttons */}
           </div>
-        </section>
+        </section> */}
         {/*Brand One End*/}
 
         {/*Feature One Start*/}
@@ -215,7 +207,7 @@ export default function Home() {
         {/*Feature One End*/}
 
         {/*Services Four Start*/}
-        <section className="services-four">
+        {/* <section className="services-four">
           <div
             className="services-four__bg"
             style={{
@@ -237,10 +229,9 @@ export default function Home() {
               <h2 className="section-title__title">We Make Bright Agency</h2>
             </div>
             <div className="row">
-              {/*Services Four Single Start*/}
               <div
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="100ms"
+                className="col-xl-3 col-lg-6 col-md-6"
+                data-aos="fade-up" data-aos-delay="100"
               >
                 <div className="services-four__single">
                   <div className="services-four__shape-1" />
@@ -261,11 +252,9 @@ export default function Home() {
                   </Link>
                 </div>
               </div>
-              {/*Services Four Single End*/}
-              {/*Services Four Single Start*/}
               <div
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="200ms"
+                className="col-xl-3 col-lg-6 col-md-6"
+                data-aos="fade-up" data-aos-delay="100"
               >
                 <div className="services-four__single">
                   <div className="services-four__shape-1" />
@@ -286,11 +275,9 @@ export default function Home() {
                   </Link>
                 </div>
               </div>
-              {/*Services Four Single End*/}
-              {/*Services Four Single Start*/}
               <div
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="300ms"
+                className="col-xl-3 col-lg-6 col-md-6"
+                data-aos="fade-up" data-aos-delay="100"
               >
                 <div className="services-four__single">
                   <div className="services-four__shape-1" />
@@ -311,11 +298,9 @@ export default function Home() {
                   </Link>
                 </div>
               </div>
-              {/*Services Four Single End*/}
-              {/*Services Four Single Start*/}
               <div
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="400ms"
+                className="col-xl-3 col-lg-6 col-md-6"
+                data-aos="fade-up" data-aos-delay="100"
               >
                 <div className="services-four__single">
                   <div className="services-four__shape-1" />
@@ -336,10 +321,9 @@ export default function Home() {
                   </Link>
                 </div>
               </div>
-              {/*Services Four Single End*/}
             </div>
           </div>
-        </section>
+        </section> */}
         {/*Services Four End*/}
 
         {/*FAQ One Start*/}
@@ -357,20 +341,16 @@ export default function Home() {
                         />
                       </div>
                       <p className="section-title__tagline">
-                        Technology Solution
+                        About Insourceful
                       </p>
                     </div>
                     <h2 className="section-title__title">
-                      Latest Software Solutions
-                      <br /> Customer
+                      Transforming Business
+                      <br /> Through Technology
                     </h2>
                   </div>
                   <p className="faq-one__text">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proide sunt in culpa qui officia
-                    deserunt mollit anim id est laborum. perspiciatis unde omnis
-                    iste natus error sit voluptatem
+                    At Insourceful, we're dedicated to helping businesses transform through strategic technology solutions. We specialize in Oracle Cloud Infrastructure (OCI), enterprise software development, and comprehensive business process automation. Our expert team brings decades of experience in delivering scalable, secure, and innovative solutions that drive real business value.
                   </p>
                   <div className="faq-one__img-and-system">
                     <div className="faq-one__img">
@@ -381,18 +361,17 @@ export default function Home() {
                     </div>
                     <div className="faq-one__system">
                       <h3 className="faq-one__system-title">
-                        Optimize It System
+                        Oracle Cloud Expertise
                       </h3>
                       <p className="faq-one__system-text">
-                        Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum
+                        Certified Oracle partners with deep expertise in cloud migration, optimization, and enterprise applications
                       </p>
                       <div className="faq-one__system-points">
                         <div className="icon">
                           <span className="icon-check" />
                         </div>
                         <div className="text">
-                          <p>The Perfect Business Solutions</p>
+                          <p>Trusted Enterprise Solutions</p>
                         </div>
                       </div>
                     </div>
@@ -412,15 +391,12 @@ export default function Home() {
                       onClick={() => handleToggle(1)}
                     >
                       <div className="accrodion-title">
-                        <h4>Completely Iterate Covalent Strategic Theme</h4>
+                        <h4>What Makes Insourceful Different?</h4>
                       </div>
                       <div className="accrodion-content">
                         <div className="inner">
                           <p>
-                            Excepteur sint occaecat cupidatat non proide sunt in
-                            culpa qui off deserunt mollit anim id est laborum.
-                            omnis iste natus error sit voluptate audantium,
-                            totam rem aperiam,
+                            Our deep Oracle expertise combined with proven enterprise experience sets us apart. We don't just implement technology - we transform businesses through strategic solutions that deliver measurable results and long-term value.
                           </p>
                         </div>
                         {/* /.inner */}
@@ -433,15 +409,12 @@ export default function Home() {
                       onClick={() => handleToggle(2)}
                     >
                       <div className="accrodion-title">
-                        <h4>Few Resons Why You Should Choose Us</h4>
+                        <h4>Why Choose Insourceful?</h4>
                       </div>
                       <div className="accrodion-content">
                         <div className="inner">
                           <p>
-                            Excepteur sint occaecat cupidatat non proide sunt in
-                            culpa qui off deserunt mollit anim id est laborum.
-                            omnis iste natus error sit voluptate audantium,
-                            totam rem aperiam,
+                            Certified Oracle partners with 20+ years of enterprise experience. We offer end-to-end solutions from cloud migration to custom application development, backed by 24/7 support and proven success across multiple industries.
                           </p>
                         </div>
                         {/* /.inner */}
@@ -454,15 +427,12 @@ export default function Home() {
                       onClick={() => handleToggle(3)}
                     >
                       <div className="accrodion-title">
-                        <h4>How To Update Application New Features</h4>
+                        <h4>Our Oracle Cloud Services</h4>
                       </div>
                       <div className="accrodion-content">
                         <div className="inner">
                           <p>
-                            Excepteur sint occaecat cupidatat non proide sunt in
-                            culpa qui off deserunt mollit anim id est laborum.
-                            omnis iste natus error sit voluptate audantium,
-                            totam rem aperiam,
+                            We provide comprehensive Oracle Cloud Infrastructure services including migration planning, implementation, optimization, and ongoing management. Our certified team ensures smooth transitions and maximum ROI from your cloud investment.
                           </p>
                         </div>
                         {/* /.inner */}
@@ -475,17 +445,12 @@ export default function Home() {
                       onClick={() => handleToggle(4)}
                     >
                       <div className="accrodion-title">
-                        <h4>
-                          How To Connect With The Support To Improve Experience
-                        </h4>
+                        <h4>Enterprise Software Development</h4>
                       </div>
                       <div className="accrodion-content">
                         <div className="inner">
                           <p>
-                            Excepteur sint occaecat cupidatat non proide sunt in
-                            culpa qui off deserunt mollit anim id est laborum.
-                            omnis iste natus error sit voluptate audantium,
-                            totam rem aperiam,
+                            Our development team specializes in building scalable enterprise applications using modern technologies. From custom Oracle APEX solutions to full-stack enterprise platforms, we deliver software that grows with your business.
                           </p>
                         </div>
                         {/* /.inner */}
@@ -500,7 +465,7 @@ export default function Home() {
         {/*FAQ One End*/}
 
         {/*Team One Start*/}
-        <section className="team-one">
+        {/* <section className="team-one">
           <div className="container">
             <div className="section-title text-center">
               <div className="section-title__tagline-box">
@@ -512,10 +477,9 @@ export default function Home() {
               <h2 className="section-title__title">Meet Our Expart Mambers</h2>
             </div>
             <div className="row">
-              {/*Team One Single Start*/}
               <div
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="100ms"
+                className="col-xl-3 col-lg-6 col-md-6"
+                data-aos="fade-up" data-aos-delay="100"
               >
                 <div className="team-one__single">
                   <div className="team-one__img-box">
@@ -553,11 +517,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              {/*Team One Single End*/}
-              {/*Team One Single Start*/}
               <div
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="200ms"
+                className="col-xl-3 col-lg-6 col-md-6"
+                data-aos="fade-up" data-aos-delay="100"
               >
                 <div className="team-one__single">
                   <div className="team-one__img-box">
@@ -595,11 +557,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              {/*Team One Single End*/}
-              {/*Team One Single Start*/}
               <div
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="300ms"
+                className="col-xl-3 col-lg-6 col-md-6"
+                data-aos="fade-up" data-aos-delay="100"
               >
                 <div className="team-one__single">
                   <div className="team-one__img-box">
@@ -637,11 +597,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              {/*Team One Single End*/}
-              {/*Team One Single Start*/}
               <div
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="400ms"
+                className="col-xl-3 col-lg-6 col-md-6"
+                data-aos="fade-up" data-aos-delay="100"
               >
                 <div className="team-one__single">
                   <div className="team-one__img-box">
@@ -679,10 +637,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              {/*Team One Single End*/}
             </div>
           </div>
-        </section>
+        </section> */}
         {/*Team One End*/}
 
         {/*Video One Start*/}
@@ -735,7 +692,7 @@ export default function Home() {
         {/*Video One End*/}
 
         {/*Testimonial Four Start*/}
-        <section className="testimonial-four">
+        {/* <section className="testimonial-four">
           <div className="testimonial-four__wrap">
             <div className="container">
               <div className="section-title text-center">
@@ -757,11 +714,11 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/*Testimonial Four End*/}
 
         {/*Blog One Start*/}
-        <section className="blog-one">
+        {/* <section className="blog-one">
           <div className="container">
             <div className="section-title text-center">
               <div className="section-title__tagline-box">
@@ -775,10 +732,9 @@ export default function Home() {
               </h2>
             </div>
             <div className="row">
-              {/*Blog One Single Start*/}
               <div
-                className="col-xl-4 col-lg-4 wow fadeInUp"
-                data-wow-delay="100ms"
+                className="col-xl-4 col-lg-4 "
+                data-aos="fade-up" data-aos-delay="100"
               >
                 <div className="blog-one__single">
                   <div className="blog-one__img-box">
@@ -825,11 +781,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              {/*Blog One Single End*/}
-              {/*Blog One Single Start*/}
               <div
-                className="col-xl-4 col-lg-4 wow fadeInUp"
-                data-wow-delay="200ms"
+                className="col-xl-4 col-lg-4 "
+                data-aos="fade-up" data-aos-delay="100"
               >
                 <div className="blog-one__single">
                   <div className="blog-one__img-box">
@@ -876,11 +830,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              {/*Blog One Single End*/}
-              {/*Blog One Single Start*/}
               <div
-                className="col-xl-4 col-lg-4 wow fadeInUp"
-                data-wow-delay="300ms"
+                className="col-xl-4 col-lg-4 "
+                data-aos="fade-up" data-aos-delay="100"
               >
                 <div className="blog-one__single">
                   <div className="blog-one__img-box">
@@ -927,10 +879,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              {/*Blog One Single End*/}
             </div>
           </div>
-        </section>
+        </section> */}
         {/*Blog One End*/}
 
         {/*Newsletter One Start*/}

@@ -28,7 +28,7 @@ export default function Funfact() {
         <div className="container">
           <div className="counter-one__inner">
             <ul className="counter-one__count-list list-unstyled">
-              <li className="wow fadeInUp" data-wow-delay="100ms">
+              <li data-aos="fade-up" data-aos-delay="100">
                 <div className="counter-one__single">
                   <div className="counter-one__icon">
                     <span className="icon-award" />
@@ -42,7 +42,7 @@ export default function Funfact() {
                   </div>
                 </div>
               </li>
-              <li className="wow fadeInUp" data-wow-delay="200ms">
+              <li data-aos="fade-up" data-aos-delay="200">
                 <div className="counter-one__single">
                   <div className="counter-one__icon">
                     <span className="icon-project-management" />
@@ -55,7 +55,7 @@ export default function Funfact() {
                   </div>
                 </div>
               </li>
-              <li className="wow fadeInUp" data-wow-delay="300ms">
+              <li data-aos="fade-up" data-aos-delay="300">
                 <div className="counter-one__single">
                   <div className="counter-one__icon">
                     <span className="icon-location" />
@@ -68,7 +68,7 @@ export default function Funfact() {
                   </div>
                 </div>
               </li>
-              <li className="wow fadeInUp" data-wow-delay="400ms">
+              <li data-aos="fade-up" data-aos-delay="400">
                 <div className="counter-one__single">
                   <div className="counter-one__icon">
                     <span className="icon-management" />
@@ -81,7 +81,7 @@ export default function Funfact() {
                   </div>
                 </div>
               </li>
-              <li className="wow fadeInUp" data-wow-delay="500ms">
+              <li data-aos="fade-up" data-aos-delay="500">
                 <div className="counter-one__single">
                   <div className="counter-one__icon">
                     <span className="icon-check" />

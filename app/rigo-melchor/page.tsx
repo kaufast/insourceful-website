@@ -4,7 +4,7 @@ export default function Home() {
 
     return (
         <>
-        <Layout headerStyle={2} footerStyle={1} headTitle="Team Details" breadcrumbTitle="Team Details" wrapperCls="">
+        <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Team Details">
       
         {/*Team Details Start */}
         <section className="team-details">
@@ -16,10 +16,10 @@ export default function Home() {
                 <div className="col-xl-5 col-lg-5">
                 <div className="team-details__left">
                     <div className="team-details__img">
-                    <img src="assets/images/team/team-details-img-1.jpg"  />
+                    <img src="assets/images/team/rigo-melchor-1.png" />
                     <div className="team-details__content">
-                        <h3>Robbie B Minick</h3>
-                        <p>Senior Designer</p>
+                        <h3>Rigoberto Melchor</h3>
+                        <p>Senior Consultant</p>
                     </div>
                     <div className="team-details__social-box">
                         <ul className="list-unstyled team-details__social">
@@ -55,12 +55,12 @@ export default function Home() {
                 </div>
                 <div className="col-xl-7 col-lg-7">
                 <div className="team-details__right">
-                    <h3 className="team-details__title">Mamber Information</h3>
+                    <h3 className="team-details__title">Member Information</h3>
                     <p className="team-details__text">
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                    nulla pariatur.
+                    For over 25 years, Rigoberto "Rigo" Melchor has successfully led digital transformation 
+                    projects for diverse organizations around the globe. His expertise as a business consultant, 
+                    Solution Architect, and leader in Enterprise Solutions has allowed Rigo to partner with 
+                    organizations in asset-intensive and life science industries.
                     </p>
                     <ul className="team-details__points list-unstyled">
                     <li>
@@ -69,8 +69,7 @@ export default function Home() {
                         </div>
                         <div className="text">
                         <p>
-                            Ut enim ad minim veniam, quis nostrud exercitation ut
-                            aliquip
+                            25+ years of international digital transformation leadership experience
                         </p>
                         </div>
                     </li>
@@ -80,8 +79,7 @@ export default function Home() {
                         </div>
                         <div className="text">
                         <p>
-                            Duis aute irure dolor in reprehenderit in voluptate eu
-                            fugiat nulla
+                            Expert in Mining, Pharmaceutical, Manufacturing, and Oil industries
                         </p>
                         </div>
                     </li>
@@ -91,13 +89,13 @@ export default function Home() {
                         <li>
                         <h4>Phone : </h4>
                         <p>
-                            <Link href="tel:01879658725">01879658725</Link>
+                            <Link href="tel:+17208788654">+1 (720) 878-8654</Link>
                         </p>
                         </li>
                         <li>
                         <h4>Email : </h4>
                         <p>
-                            <Link href="mailto:Example@gmail.com">Example@gmail.com</Link>
+                            <Link href="mailto:rigo.melchor@gmail.com">rigo.melchor@gmail.com</Link>
                         </p>
                         </li>
                         <li>
@@ -109,7 +107,7 @@ export default function Home() {
                         <li>
                         <h4>Website : </h4>
                         <p>
-                            <Link href="mailto:Webexample.com">Webexample.com</Link>
+                            <Link href="https://insourceful.io">insourceful.io</Link>
                         </p>
                         </li>
                         <li>
@@ -118,7 +116,7 @@ export default function Home() {
                         </li>
                         <li>
                         <h4>Address :</h4>
-                        <p>Raselina, New York</p>
+                        <p>Denver, Colorado</p>
                         </li>
                     </ul>
                     </div>
@@ -137,13 +135,14 @@ export default function Home() {
                 <h3 className="qualification__left-title">Qualifications:</h3>
                 <p className="qualification__left-text">Education/Certification:</p>
                 <p className="qualification__left-text-2">
-                    Bachelor’s Degree required in Business Administration, HR or related
-                    field
+                    Executive MBA from IESE Business School Barcelona, Oracle JD Edwards 
+                    Implementation Expert Certified
                 </p>
                 <p className="qualification__left-text-3">Experience Required:</p>
                 <p className="qualification__left-text-4">
-                    Minimum 5 years of progressively responsible and related experience
-                    in Human Resources, with a focus on talent development
+                    Over 25 years of progressively responsible experience in Digital 
+                    Transformation, Enterprise Solutions, and Business Consulting across 
+                    global markets
                 </p>
                 </div>
                 <div className="qualification__right">
@@ -212,9 +211,10 @@ export default function Home() {
                 <div className="why-choose-one__left">
                     <h3 className="why-choose-one__title">How Can Help You</h3>
                     <p className="why-choose-one__text">
-                    Penatibus pulvinar hac lacinia interdum fermentum tortor leo a
-                    montes ridlus nisi mauris quis potenti habitant cum consequat
-                    varius est maecenas pretiun dignissim facilisi top level vehicula.
+                    Throughout his career, Rigo has been inspired by the talented people 
+                    with whom he has partnered to collectively create positive change. He 
+                    takes great pride in making a difference with every completed project, 
+                    transferring knowledge, and creating sustainable digital models.
                     </p>
                     <ul className="why-choose-one__points list-unstyled">
                     <li>
@@ -224,8 +224,8 @@ export default function Home() {
                         <div className="content">
                         <h3>Creative Solution</h3>
                         <p>
-                            Congue lacinia aenean venenatis arcu rutrum vitae <br /> sus
-                            pena tibus lectus dapibus integer habitasses
+                            Developing innovative digital transformation strategies <br /> 
+                            tailored to your specific industry and business needs
                         </p>
                         </div>
                     </li>
@@ -236,8 +236,8 @@ export default function Home() {
                         <div className="content">
                         <h3>Customer Support</h3>
                         <p>
-                            Congue lacinia aenean venenatis arcu rutrum vitae <br /> sus
-                            pena tibus lectus dapibus integer habitasses
+                            Providing comprehensive support throughout the entire <br /> 
+                            implementation lifecycle and beyond
                         </p>
                         </div>
                     </li>
@@ -246,10 +246,10 @@ export default function Home() {
                         <span className="icon-group" />
                         </div>
                         <div className="content">
-                        <h3>Execultive Member</h3>
+                        <h3>Executive Member</h3>
                         <p>
-                            Congue lacinia aenean venenatis arcu rutrum vitae <br /> sus
-                            pena tibus lectus dapibus integer habitasses
+                            Leveraging executive-level experience to drive <br /> 
+                            organizational change and transformation
                         </p>
                         </div>
                     </li>
@@ -260,7 +260,7 @@ export default function Home() {
                 <div className="why-choose-one__right">
                     <div className="why-choose-one__img">
                     <img
-                        src="assets/images/resources/why-choose-one-img.jpg"
+                        src="assets/images/team/rigo-melchor-2.png"
                         
                     />
                     </div>

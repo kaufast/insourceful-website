@@ -67,7 +67,7 @@ export default function Header2({ scroll, handlePopup, handleMobileMenu }: Heade
                 <div className="main-menu-two__left">
                     <div className="main-menu-two__logo">
                     <Link href="/">
-                        <img src="assets/images/resources/insourceful-consulting-white.avif" alt="InSourceful Logo" style={{height: '400px', width: 'auto'}}/>
+                        <img src="assets/images/resources/insourceful-consulting-white.webp" alt="InSourceful Logo" style={{height: '400px', width: 'auto'}}/>
                     </Link>
                     </div>
                     <div className="main-menu-two__main-menu-box">
@@ -110,7 +110,7 @@ export default function Header2({ scroll, handlePopup, handleMobileMenu }: Heade
                 <div className="main-menu-two__left">
                     <div className="main-menu-two__logo">
                     <Link href="/">
-                        <img src="assets/images/resources/insourceful-consulting-white.avif" alt="InSourceful Logo" style={{height: '400px', width: 'auto'}}  />
+                        <img src="assets/images/resources/insourceful-consulting-white.webp" alt="InSourceful Logo" style={{height: '400px', width: 'auto'}}  />
                     </Link>
                     </div>
                     <div className="main-menu-two__main-menu-box">

@@ -19,8 +19,9 @@ export default function Blog() {
           <div className="row">
             {/*Blog One Single Start*/}
             <div
-              className="col-xl-4 col-lg-4 wow fadeInUp"
-              data-wow-delay="100ms"
+              className="col-xl-4 col-lg-4"
+              data-aos="fade-up"
+              data-aos-delay="100"
             >
               <div className="blog-one__single">
                 <div className="blog-one__img-box">
@@ -69,8 +70,9 @@ export default function Blog() {
             {/*Blog One Single End*/}
             {/*Blog One Single Start*/}
             <div
-              className="col-xl-4 col-lg-4 wow fadeInUp"
-              data-wow-delay="200ms"
+              className="col-xl-4 col-lg-4"
+              data-aos="fade-up"
+              data-aos-delay="200"
             >
               <div className="blog-one__single">
                 <div className="blog-one__img-box">
@@ -119,8 +121,9 @@ export default function Blog() {
             {/*Blog One Single End*/}
             {/*Blog One Single Start*/}
             <div
-              className="col-xl-4 col-lg-4 wow fadeInUp"
-              data-wow-delay="300ms"
+              className="col-xl-4 col-lg-4"
+              data-aos="fade-up"
+              data-aos-delay="300"
             >
               <div className="blog-one__single">
                 <div className="blog-one__img-box">

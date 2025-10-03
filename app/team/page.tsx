@@ -12,8 +12,8 @@ export default function Home() {
             <div className="row">
                 {/*Team One Single Start*/}
                 <div
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="100ms"
+                className="col-xl-3 col-lg-6 col-md-6"
+                data-aos="fade-up" data-aos-delay="100"
                 >
                 <div className="team-one__single">
                     <div className="team-one__img-box">
@@ -54,8 +54,8 @@ export default function Home() {
                 {/*Team One Single End*/}
                 {/*Team One Single Start*/}
                 <div
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="200ms"
+                className="col-xl-3 col-lg-6 col-md-6"
+                data-aos="fade-up" data-aos-delay="200"
                 >
                 <div className="team-one__single">
                     <div className="team-one__img-box">
@@ -96,8 +96,8 @@ export default function Home() {
                 {/*Team One Single End*/}
                 {/*Team One Single Start*/}
                 <div
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="300ms"
+                className="col-xl-3 col-lg-6 col-md-6"
+                data-aos="fade-up" data-aos-delay="300"
                 >
                 <div className="team-one__single">
                     <div className="team-one__img-box">
@@ -138,8 +138,8 @@ export default function Home() {
                 {/*Team One Single End*/}
                 {/*Team One Single Start*/}
                 <div
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="400ms"
+                className="col-xl-3 col-lg-6 col-md-6"
+                data-aos="fade-up" data-aos-delay="400"
                 >
                 <div className="team-one__single">
                     <div className="team-one__img-box">
@@ -180,8 +180,8 @@ export default function Home() {
                 {/*Team One Single End*/}
                 {/*Team One Single Start*/}
                 <div
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="500ms"
+                className="col-xl-3 col-lg-6 col-md-6"
+                data-aos="fade-up" data-aos-delay="500"
                 >
                 <div className="team-one__single">
                     <div className="team-one__img-box">
@@ -222,8 +222,8 @@ export default function Home() {
                 {/*Team One Single End*/}
                 {/*Team One Single Start*/}
                 <div
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="600ms"
+                className="col-xl-3 col-lg-6 col-md-6"
+                data-aos="fade-up" data-aos-delay="600"
                 >
                 <div className="team-one__single">
                     <div className="team-one__img-box">
@@ -264,8 +264,8 @@ export default function Home() {
                 {/*Team One Single End*/}
                 {/*Team One Single Start*/}
                 <div
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="700ms"
+                className="col-xl-3 col-lg-6 col-md-6"
+                data-aos="fade-up" data-aos-delay="700"
                 >
                 <div className="team-one__single">
                     <div className="team-one__img-box">
@@ -306,8 +306,8 @@ export default function Home() {
                 {/*Team One Single End*/}
                 {/*Team One Single Start*/}
                 <div
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="800ms"
+                className="col-xl-3 col-lg-6 col-md-6"
+                data-aos="fade-up" data-aos-delay="800"
                 >
                 <div className="team-one__single">
                     <div className="team-one__img-box">

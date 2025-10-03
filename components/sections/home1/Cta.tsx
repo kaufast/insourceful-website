@@ -5,7 +5,7 @@ export default function Cta() {
       {/*CTA One Start*/}
       <section className="cta-one">
         <div className="container">
-          <div className="cta-one__inner wow fadeInUp" data-wow-delay="300ms">
+          <div className="cta-one__inner" data-aos="fade-up" data-aos-delay="300">
             <h3 className="cta-one__title">Have Any Question?</h3>
             <div className="cta-one__icon">
               <span className="icon-phone" />

@@ -9,7 +9,7 @@ import "swiper/css/pagination"
 import 'swiper/css/free-mode';
 import { openSans, poppins } from '@/lib/font'
 import StructuredData from '@/components/seo/StructuredData'
-import GoogleAnalytics, { GTMBodyScript } from '@/components/GoogleAnalytics'
+import Script from 'next/script'
 export const metadata = {
     title: {
         default: 'InSourceful - Enterprise Technology Consulting Services',
@@ -73,10 +73,22 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     return (
         <html lang="en" className={`${openSans.variable} ${poppins.variable}`}>
             <head>
-                <GoogleAnalytics />
+                <script
+                    async
+                    src={`https://www.googletagmanager.com/gtag/js?id=G-LSRCWE9M52`}
+                />
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html: `
+                            window.dataLayer = window.dataLayer || [];
+                            function gtag(){dataLayer.push(arguments);}
+                            gtag('js', new Date());
+                            gtag('config', 'G-LSRCWE9M52');
+                        `,
+                    }}
+                />
             </head>
             <body>
-                <GTMBodyScript />
                 <StructuredData />
                 {children}
             </body>

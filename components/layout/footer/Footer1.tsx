@@ -26,25 +26,25 @@ export default function Footer1() {
                     data-aos="fade-up"
                     data-aos-delay="100"
                 >
-                    <div className="footer-widget__column footer-widget__about">
+                    <div className="footer-widget__column footer-widget__services">
                     <div className="footer-widget__title-box">
-                        <h3 className="footer-widget__title">About</h3>
+                        <h3 className="footer-widget__title">Services</h3>
                     </div>
                     <ul className="footer-widget__list list-unstyled">
                         <li>
-                        <Link href="about">Causes</Link>
+                        <Link href="services">Implementation</Link>
                         </li>
                         <li>
-                        <Link href="about">About Us</Link>
+                        <Link href="services">Consulting</Link>
                         </li>
                         <li>
-                        <Link href="about">New Campaign</Link>
+                        <Link href="/">Development</Link>
                         </li>
                         <li>
-                        <Link href="about">Site Map</Link>
+                        <Link href="/">Analytics</Link>
                         </li>
                         <li>
-                        <Link href="about">New Events</Link>
+                        <Link href="/">Security</Link>
                         </li>
                     </ul>
                     </div>
@@ -53,34 +53,6 @@ export default function Footer1() {
                     className="col-xl-2 col-lg-2 col-md-6"
                     data-aos="fade-up"
                     data-aos-delay="200"
-                >
-                    <div className="footer-widget__column footer-widget__explore">
-                    <div className="footer-widget__title-box">
-                        <h3 className="footer-widget__title">Explore</h3>
-                    </div>
-                    <ul className="footer-widget__list list-unstyled">
-                        <li>
-                        <Link href="about">Press Release</Link>
-                        </li>
-                        <li>
-                        <Link href="contact">Contact</Link>
-                        </li>
-                        <li>
-                        <Link href="blog">Blog Posts</Link>
-                        </li>
-                        <li>
-                        <Link href="about">Social Connect</Link>
-                        </li>
-                        <li>
-                        <Link href="about">Help Topics</Link>
-                        </li>
-                    </ul>
-                    </div>
-                </div>
-                <div
-                    className="col-xl-2 col-lg-2 col-md-6"
-                    data-aos="fade-up"
-                    data-aos-delay="300"
                 >
                     <div className="footer-widget__column footer-widget__links">
                     <div className="footer-widget__title-box">
@@ -97,10 +69,32 @@ export default function Footer1() {
                         <Link href="services">Popular Services</Link>
                         </li>
                         <li>
-                        <Link href="about">Financial</Link>
+                        <Link href="services">Financial</Link>
                         </li>
                         <li>
-                        <Link href="about">Consulting</Link>
+                        <Link href="services">Consulting</Link>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+                <div
+                    className="col-xl-2 col-lg-2 col-md-6"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                >
+                    <div className="footer-widget__column footer-widget__resources">
+                    <div className="footer-widget__title-box">
+                        <h3 className="footer-widget__title">Resources</h3>
+                    </div>
+                    <ul className="footer-widget__list list-unstyled">
+                        <li>
+                        <Link href="/">Case Studies</Link>
+                        </li>
+                        <li>
+                        <Link href="/">Insights & Blog</Link>
+                        </li>
+                        <li>
+                        <Link href="/">Whitepapers & Guides</Link>
                         </li>
                     </ul>
                     </div>
@@ -110,25 +104,25 @@ export default function Footer1() {
                     data-aos="fade-up"
                     data-aos-delay="400"
                 >
-                    <div className="footer-widget__column footer-widget__blog">
+                    <div className="footer-widget__column footer-widget__support">
                     <div className="footer-widget__title-box">
-                        <h3 className="footer-widget__title">Blog</h3>
+                        <h3 className="footer-widget__title">Support</h3>
                     </div>
                     <ul className="footer-widget__list list-unstyled">
                         <li>
-                        <Link href="about">Financial Planning</Link>
+                        <Link href="contact">Contact Us</Link>
                         </li>
                         <li>
-                        <Link href="about">Care for All People</Link>
+                        <Link href="contact">Schedule a Call</Link>
                         </li>
                         <li>
-                        <Link href="about">Build Business</Link>
+                        <Link href="terms">Terms</Link>
                         </li>
                         <li>
-                        <Link href="about">Being Volunteer</Link>
+                        <Link href="privacy-policy">Privacy</Link>
                         </li>
                         <li>
-                        <Link href="about">Raise fund to help</Link>
+                        <Link href="gdpr">GDPR</Link>
                         </li>
                     </ul>
                     </div>

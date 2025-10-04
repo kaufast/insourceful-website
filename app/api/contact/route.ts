@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { sendContactEmail } from '@/lib/email';
 
 export async function POST(req: NextRequest) {
   try {
@@ -22,7 +23,7 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // Log the contact form submission (in production, you'd send this to your email service)
+    // Log the contact form submission
     console.log('Contact Form Submission:', {
       name,
       email,
@@ -32,37 +33,21 @@ export async function POST(req: NextRequest) {
       timestamp: new Date().toISOString(),
     });
 
-    // Here you would typically:
-    // 1. Send email using a service like SendGrid, Mailgun, or AWS SES
-    // 2. Save to database
-    // 3. Send to CRM system
-    
-    // For now, we'll simulate a successful submission
-    // Replace this with actual email sending logic
-    if (process.env.NODE_ENV === 'production') {
-      // In production, you would use a real email service
-      // Example with SendGrid:
-      /*
-      const sgMail = require('@sendgrid/mail');
-      sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+    // Send email notification
+    try {
+      await sendContactEmail({
+        name,
+        email,
+        phone,
+        subject,
+        message,
+      });
       
-      const emailContent = {
-        to: 'info@insourceful.ai',
-        from: 'noreply@insourceful.ai',
-        subject: `New Contact Form: ${subject || 'General Inquiry'}`,
-        html: `
-          <h2>New Contact Form Submission</h2>
-          <p><strong>Name:</strong> ${name}</p>
-          <p><strong>Email:</strong> ${email}</p>
-          <p><strong>Phone:</strong> ${phone || 'Not provided'}</p>
-          <p><strong>Subject:</strong> ${subject || 'Not provided'}</p>
-          <p><strong>Message:</strong></p>
-          <p>${message}</p>
-        `,
-      };
-      
-      await sgMail.send(emailContent);
-      */
+      console.log('Contact email sent successfully');
+    } catch (emailError) {
+      console.error('Failed to send contact email:', emailError);
+      // Don't fail the request if email fails - log it but continue
+      // In production, you might want to use a queue system for reliability
     }
 
     return NextResponse.json({

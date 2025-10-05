@@ -2,6 +2,8 @@ import "../public/assets/css/zeena.css"
 import "../public/assets/css/logo-sizing.css"
 import "../public/assets/css/contact-form.css"
 import "../public/assets/css/sticky-header-fix.css"
+// ACCESSIBILITY FIXES - MUST BE LAST TO OVERRIDE ALL OTHER STYLES
+import "../public/assets/css/accessibility-fixes.css"
 // import "../public/assets/css/insourceful-theme.css"
 import 'swiper/css'
 // import "swiper/css/navigation"
@@ -75,28 +77,38 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     return (
         <html lang="en" className={`${openSans.variable} ${poppins.variable}`}>
             <head>
-                {GA_MEASUREMENT_ID && (
-                    <>
-                        <script
-                            async
-                            src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-                        />
-                        <script
-                            dangerouslySetInnerHTML={{
-                                __html: `
-                                    window.dataLayer = window.dataLayer || [];
-                                    function gtag(){dataLayer.push(arguments);}
-                                    gtag('js', new Date());
-                                    gtag('config', '${GA_MEASUREMENT_ID}');
-                                `,
-                            }}
-                        />
-                    </>
-                )}
+                {/* Preload critical LCP image */}
+                <link
+                    rel="preload"
+                    as="image"
+                    href="/assets/images/backgrounds/hero.webp"
+                />
+                {/* Performance optimization meta */}
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta name="theme-color" content="#0066cc" />
+                
             </head>
             <body>
                 <StructuredData />
                 {children}
+                
+                {/* Google Analytics */}
+                {GA_MEASUREMENT_ID && (
+                    <>
+                        <Script
+                            src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+                            strategy="afterInteractive"
+                        />
+                        <Script id="google-analytics" strategy="afterInteractive">
+                            {`
+                                window.dataLayer = window.dataLayer || [];
+                                function gtag(){dataLayer.push(arguments);}
+                                gtag('js', new Date());
+                                gtag('config', '${GA_MEASUREMENT_ID}');
+                            `}
+                        </Script>
+                    </>
+                )}
             </body>
         </html>
     )

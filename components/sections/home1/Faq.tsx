@@ -32,7 +32,7 @@ export default function Faq() {
                     <div className="section-title__tagline-icon">
                       <img
                         src="assets/images/icon/section-title-icon.png"
-                        
+                        alt="Section title icon"
                       />
                     </div>
                     <p className="section-title__tagline">

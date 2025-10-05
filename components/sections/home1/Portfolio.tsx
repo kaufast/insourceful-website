@@ -60,6 +60,7 @@ export default function Portfolio() {
                       <Link
                         href="assets/images/project/portfolio-1-2.webp"
                         className="img-popup"
+                        aria-label="View project image"
                       >
                         <span className="icon-right-arrow1" />
                       </Link>
@@ -87,6 +88,7 @@ export default function Portfolio() {
                       <Link
                         href="assets/images/project/portfolio-1-3.webp"
                         className="img-popup"
+                        aria-label="View project image"
                       >
                         <span className="icon-right-arrow1" />
                       </Link>
@@ -112,6 +114,7 @@ export default function Portfolio() {
                       <Link
                         href="assets/images/project/portfolio-1-4.webp"
                         className="img-popup"
+                        aria-label="View project image"
                       >
                         <span className="icon-right-arrow1" />
                       </Link>

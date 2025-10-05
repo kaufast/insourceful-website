@@ -15,7 +15,7 @@ export default function About() {
                 >
                   <img
                     src="assets/images/resources/about-one-img-1.webp"
-                    
+                    alt="Business professionals in meeting"
                   />
                   <div className="about-one__experience-text">
                     <p>25+ years Experience</p>
@@ -24,10 +24,10 @@ export default function About() {
                     <div className="about-one__img-2">
                       <img
                         src="assets/images/resources/about-one-img-2.webp"
-                        
+                        alt="Team collaboration in office"
                       />
                       <div className="about-one__video-link">
-                        <a className="video-popup">
+                        <a className="video-popup" href="#" aria-label="Play video about our company">
                           <div className="about-one__video-icon">
                             <span className="fa fa-play" />
                             <i className="ripple" />
@@ -57,7 +57,7 @@ export default function About() {
                     <div className="section-title__tagline-icon">
                       <img
                         src="assets/images/icon/section-title-icon.png"
-                        
+                        alt="Section title icon"
                       />
                     </div>
                     <p className="section-title__tagline">About Us</p>
@@ -95,7 +95,7 @@ export default function About() {
                   <div className="about-one__it-solution-img">
                     <img
                       src="assets/images/resources/about-one-it-solution-img.webp"
-                      
+                      alt="Oracle JD Edwards system interface"
                     />
                   </div>
                   <div className="about-one__it-solution-content">

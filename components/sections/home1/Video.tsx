@@ -33,7 +33,7 @@ export default function Video() {
         <div className="container">
           <div className="video-one__inner">
             <div className="video-one__video-link">
-              <a className="video-popup">
+              <a className="video-popup" href="#" aria-label="Play promotional video">
                 <div className="video-one__video-icon">
                   <span className="fa fa-play" />
                   <i className="ripple" />

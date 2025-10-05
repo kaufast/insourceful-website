@@ -12,7 +12,6 @@ import Header3 from './header/Header3'
 import Footer1 from './footer/Footer1'
 import Footer2 from './footer/Footer2'
 import Footer3 from './footer/Footer3'
-import GoogleAnalytics from '../analytics/GoogleAnalytics'
 import GoogleTagManager from '../analytics/GoogleTagManager'
 import CookieConsent from '../elements/CookieConsent'
 import { initAOS } from '@/lib/aos'
@@ -77,10 +76,6 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
               <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID} />
             )}
             
-            {/* Google Analytics */}
-            {process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID && (
-              <GoogleAnalytics measurementId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />
-            )}
             
             <DataBg />
             <div className={`page-wrapper ${wrapperCls ? wrapperCls : ""}`} id="#top">

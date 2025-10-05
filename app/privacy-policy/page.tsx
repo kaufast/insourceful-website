@@ -6,12 +6,12 @@ export default function PrivacyPolicy() {
   return (
     <>
       <Layout headerStyle={1} footerStyle={1} headTitle="Privacy Policy" breadcrumbTitle="Privacy Policy">
-        <section className="privacy-policy">
+        <section className="privacy-policy" style={{ padding: '120px 0' }}>
           <div className="container">
             <div className="row">
               <div className="col-xl-12">
                 <div className="privacy-policy__content">
-                  <div className="privacy-policy__text">
+                  <div className="privacy-policy__text" style={{ marginBottom: '50px' }}>
                     <h2>Privacy Policy</h2>
                     <p className="mb-4">
                       <strong>Effective Date:</strong> {new Date().toLocaleDateString()}

@@ -10,15 +10,15 @@ export default function Home() {
         <section className="case-single">
             <div className="container">
             <div className="case-single__img">
-                <img src="assets/images/resources/case-single-img-1.jpg"  />
+                <img src="assets/images/resources/case-single-img-1.jpg" alt="Case study main image" />
             </div>
             <div className="case-single__details">
                 <div className="case-single__details-inner">
                 <div className="case-single__shape-1">
-                    <img src="assets/images/shapes/case-single-shape-1.png"  />
+                    <img src="assets/images/shapes/case-single-shape-1.png" alt="Decorative shape" />
                 </div>
                 <div className="case-single__shape-2">
-                    <img src="assets/images/shapes/case-single-shape-2.png"  />
+                    <img src="assets/images/shapes/case-single-shape-2.png" alt="Decorative shape" />
                 </div>
                 <ul className="list-unstyled case-single__details-list">
                     <li>

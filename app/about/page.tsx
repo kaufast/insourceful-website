@@ -78,28 +78,28 @@ export default function Home() {
               <SwiperSlide>
                 <div className="brand-one__single">
                   <div className="brand-one__img">
-                    <img src="assets/images/brand/brand-1-1.png"  />
+                    <img src="assets/images/brand/brand-1-1.png" alt="Brand partner logo" />
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="brand-one__single">
                   <div className="brand-one__img">
-                    <img src="assets/images/brand/brand-1-2.png"  />
+                    <img src="assets/images/brand/brand-1-2.png" alt="Brand partner logo" />
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="brand-one__single">
                   <div className="brand-one__img">
-                    <img src="assets/images/brand/brand-1-3.png"  />
+                    <img src="assets/images/brand/brand-1-3.png" alt="Brand partner logo" />
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="brand-one__single">
                   <div className="brand-one__img">
-                    <img src="assets/images/brand/brand-1-4.png"  />
+                    <img src="assets/images/brand/brand-1-4.png" alt="Brand partner logo" />
                   </div>
                 </div>
               </SwiperSlide>
@@ -113,7 +113,7 @@ export default function Home() {
               <SwiperSlide>
                 <div className="brand-one__single">
                   <div className="brand-one__img">
-                    <img src="assets/images/brand/brand-1-4.png"  />
+                    <img src="assets/images/brand/brand-1-4.png" alt="Brand partner logo" />
                   </div>
                 </div>
               </SwiperSlide>
@@ -773,7 +773,7 @@ export default function Home() {
                       refreshing.
                     </p>
                     <div className="blog-one__btn">
-                      <Link href="blog-details">
+                      <Link href="blog-details" aria-label="Read more about Easy To Use Software New Innovation">
                         Read more
                         <span className="icon-right-arrow1" />
                       </Link>
@@ -822,7 +822,7 @@ export default function Home() {
                       refreshing.
                     </p>
                     <div className="blog-one__btn">
-                      <Link href="blog-details">
+                      <Link href="blog-details" aria-label="Read more about Ipsum Text Used by Copytyping">
                         Read more
                         <span className="icon-right-arrow1" />
                       </Link>
@@ -871,7 +871,7 @@ export default function Home() {
                       refreshing.
                     </p>
                     <div className="blog-one__btn">
-                      <Link href="blog-details">
+                      <Link href="blog-details" aria-label="Read more about Simply Text Used by Copytyping Refreshing">
                         Read more
                         <span className="icon-right-arrow1" />
                       </Link>

@@ -61,7 +61,7 @@ export default function Home() {
                             laboris nisi commodo consequat. Duis aute irure dolor in
                             reprehenderit in voluptate velit
                         </p>
-                        <Link href="blog-details" className="blog-page__read-more">
+                        <Link href="blog-details" className="blog-page__read-more" aria-label="Read more about blog post">
                             Read more <span className="icon-right-arrow1" />
                         </Link>
                         </div>
@@ -114,7 +114,7 @@ export default function Home() {
                             laboris nisi commodo consequat. Duis aute irure dolor in
                             reprehenderit in voluptate velit
                         </p>
-                        <Link href="blog-details" className="blog-page__read-more">
+                        <Link href="blog-details" className="blog-page__read-more" aria-label="Read more about blog post">
                             Read more <span className="icon-right-arrow1" />
                         </Link>
                         </div>
@@ -167,7 +167,7 @@ export default function Home() {
                             laboris nisi commodo consequat. Duis aute irure dolor in
                             reprehenderit in voluptate velit
                         </p>
-                        <Link href="blog-details" className="blog-page__read-more">
+                        <Link href="blog-details" className="blog-page__read-more" aria-label="Read more about blog post">
                             Read more <span className="icon-right-arrow1" />
                         </Link>
                         </div>
@@ -220,7 +220,7 @@ export default function Home() {
                             laboris nisi commodo consequat. Duis aute irure dolor in
                             reprehenderit in voluptate velit
                         </p>
-                        <Link href="blog-details" className="blog-page__read-more">
+                        <Link href="blog-details" className="blog-page__read-more" aria-label="Read more about blog post">
                             Read more <span className="icon-right-arrow1" />
                         </Link>
                         </div>

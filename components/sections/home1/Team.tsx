@@ -8,7 +8,7 @@ export default function Team() {
           <div className="section-title text-center">
             <div className="section-title__tagline-box">
               <div className="section-title__tagline-icon">
-                <img src="assets/images/icon/section-title-icon.png"  />
+                <img src="assets/images/icon/section-title-icon.png" alt="Section title icon" />
               </div>
               <p className="section-title__tagline">Meet Our Team</p>
             </div>
@@ -24,7 +24,7 @@ export default function Team() {
               <div className="team-one__single">
                 <div className="team-one__img-box">
                   <div className="team-one__img">
-                    <img src="assets/images/team/team-1-1.jpg"  />
+                    <img src="assets/images/team/team-1-1.jpg" alt="Team member photo" />
                     <div className="team-one__name-box">
                       <h3 className="team-one__name">
                         <Link href="team-details">Jecika Brown</Link>
@@ -67,7 +67,7 @@ export default function Team() {
               <div className="team-one__single">
                 <div className="team-one__img-box">
                   <div className="team-one__img">
-                    <img src="assets/images/team/team-1-2.jpg"  />
+                    <img src="assets/images/team/team-1-2.jpg" alt="Team member photo" />
                     <div className="team-one__name-box">
                       <h3 className="team-one__name">
                         <Link href="team-details">Jhon Smith</Link>
@@ -110,7 +110,7 @@ export default function Team() {
               <div className="team-one__single">
                 <div className="team-one__img-box">
                   <div className="team-one__img">
-                    <img src="assets/images/team/team-1-3.jpg"  />
+                    <img src="assets/images/team/team-1-3.jpg" alt="Team member photo" />
                     <div className="team-one__name-box">
                       <h3 className="team-one__name">
                         <Link href="team-details">Alisha Martin</Link>
@@ -153,7 +153,7 @@ export default function Team() {
               <div className="team-one__single">
                 <div className="team-one__img-box">
                   <div className="team-one__img">
-                    <img src="assets/images/team/team-1-4.jpg"  />
+                    <img src="assets/images/team/team-1-4.jpg" alt="Team member photo" />
                     <div className="team-one__name-box">
                       <h3 className="team-one__name">
                         <Link href="team-details">David Kapor</Link>

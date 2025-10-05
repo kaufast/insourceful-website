@@ -15,7 +15,7 @@ export default function Pricng() {
           <div className="section-title text-center">
             <div className="section-title__tagline-box">
               <div className="section-title__tagline-icon">
-                <img src="assets/images/icon/section-title-icon.png"  />
+                <img src="assets/images/icon/section-title-icon.png" alt="Section title icon" />
               </div>
               <p className="section-title__tagline">Our Pricing</p>
             </div>

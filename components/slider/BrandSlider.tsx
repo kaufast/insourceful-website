@@ -65,8 +65,8 @@ export default function BrandSlider() {
                 <div className="brand-one__single">
                     <div className="brand-one__single-inner">
                         <Link href="#">
-                            <img src="assets/images/brand/brand-1-1.png" />
-                            <img src="assets/images/brand/brand-1-2.png" />
+                            <img src="assets/images/brand/brand-1-1.png" alt="Brand logo" />
+                            <img src="assets/images/brand/brand-1-2.png" alt="Brand logo" />
                         </Link>
                     </div>
                 </div>
@@ -78,8 +78,8 @@ export default function BrandSlider() {
                 <div className="brand-one__single">
                     <div className="brand-one__single-inner">
                         <Link href="#">
-                            <img src="assets/images/brand/brand-1-1.png" />
-                            <img src="assets/images/brand/brand-1-2.png" />
+                            <img src="assets/images/brand/brand-1-1.png" alt="Brand logo" />
+                            <img src="assets/images/brand/brand-1-2.png" alt="Brand logo" />
                         </Link>
                     </div>
                 </div>
@@ -90,8 +90,8 @@ export default function BrandSlider() {
                 <div className="brand-one__single">
                     <div className="brand-one__single-inner">
                         <Link href="#">
-                            <img src="assets/images/brand/brand-1-1.png" />
-                            <img src="assets/images/brand/brand-1-2.png" />
+                            <img src="assets/images/brand/brand-1-1.png" alt="Brand logo" />
+                            <img src="assets/images/brand/brand-1-2.png" alt="Brand logo" />
                         </Link>
                     </div>
                 </div>
@@ -102,8 +102,8 @@ export default function BrandSlider() {
                 <div className="brand-one__single">
                     <div className="brand-one__single-inner">
                         <Link href="#">
-                            <img src="assets/images/brand/brand-1-1.png" />
-                            <img src="assets/images/brand/brand-1-2.png" />
+                            <img src="assets/images/brand/brand-1-1.png" alt="Brand logo" />
+                            <img src="assets/images/brand/brand-1-2.png" alt="Brand logo" />
                         </Link>
                     </div>
                 </div>
@@ -114,8 +114,8 @@ export default function BrandSlider() {
                 <div className="brand-one__single">
                     <div className="brand-one__single-inner">
                         <Link href="#">
-                            <img src="assets/images/brand/brand-1-1.png" />
-                            <img src="assets/images/brand/brand-1-2.png" />
+                            <img src="assets/images/brand/brand-1-1.png" alt="Brand logo" />
+                            <img src="assets/images/brand/brand-1-2.png" alt="Brand logo" />
                         </Link>
                     </div>
                 </div>
@@ -126,8 +126,8 @@ export default function BrandSlider() {
                 <div className="brand-one__single">
                     <div className="brand-one__single-inner">
                         <Link href="#">
-                            <img src="assets/images/brand/brand-1-1.png" />
-                            <img src="assets/images/brand/brand-1-2.png" />
+                            <img src="assets/images/brand/brand-1-1.png" alt="Brand logo" />
+                            <img src="assets/images/brand/brand-1-2.png" alt="Brand logo" />
                         </Link>
                     </div>
                 </div>

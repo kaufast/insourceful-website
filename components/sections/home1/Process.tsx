@@ -5,7 +5,7 @@ export default function Process() {
       <section className="process-one">
         <div className="process-one__inner">
           <div className="process-one__shape-1 float-bob-y-2">
-            <img src="assets/images/shapes/process-one-shape-1.png"  />
+            <img src="assets/images/shapes/process-one-shape-1.png" alt="Process section decorative shape" />
           </div>
           <div className="container">
             <ul className="process-one__process-list list-unstyled">

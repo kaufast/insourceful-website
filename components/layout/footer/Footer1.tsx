@@ -148,16 +148,16 @@ export default function Footer1() {
                         </li>
                     </ul>
                     <div className="footer-widget__social">
-                        <Link href="#">
+                        <Link href="#" aria-label="Facebook">
                         <span className="fab fa-facebook-f" />
                         </Link>
-                        <Link href="#">
+                        <Link href="#" aria-label="Twitter">
                         <span className="fab fa-twitter" />
                         </Link>
-                        <Link href="#">
+                        <Link href="#" aria-label="LinkedIn">
                         <span className="fab fa-linkedin-in" />
                         </Link>
-                        <Link href="#">
+                        <Link href="#" aria-label="YouTube">
                         <span className="fab fa-youtube" />
                         </Link>
                     </div>

@@ -79,12 +79,14 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup }: Heade
                         <Link onClick={handlePopup}
                         href="#"
                         className="main-menu__search search-toggler icon-search"
+                        aria-label="Open search"
                         />
                     </div>
                     <div className="main-menu__cart-box">
                         <Link
                         href="tel:+17208788654"
                         className="main-menu__cart fas fa-phone"
+                        aria-label="Call us at (720) 878-8654"
                         />
                     </div>
                     </div>

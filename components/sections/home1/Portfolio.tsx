@@ -8,7 +8,7 @@ export default function Portfolio() {
           <div className="section-title text-center">
             <div className="section-title__tagline-box">
               <div className="section-title__tagline-icon">
-                <img src="assets/images/icon/section-title-icon.png"  />
+                <img src="assets/images/icon/section-title-icon.png" alt="Section title icon" />
               </div>
               <p className="section-title__tagline">Our Recent Work</p>
             </div>
@@ -25,15 +25,16 @@ export default function Portfolio() {
                   }}
                 >
                   <div className="portfolio-one__title-box">
-                    <h4 className="portfolio-one__title">
+                    <h3 className="portfolio-one__title">
                       <Link href="portfolio-details">
                         Mining: SAP to JDE Migration
                       </Link>
-                    </h4>
+                    </h3>
                     <div className="portfolio-one__arrow">
                       <Link
                         href="assets/images/project/portfolio-1-1.webp"
                         className="img-popup"
+                        aria-label="View project image"
                       >
                         <span className="icon-right-arrow1" />
                       </Link>
@@ -52,9 +53,9 @@ export default function Portfolio() {
                   }}
                 >
                   <div className="portfolio-one__title-box">
-                    <h4 className="portfolio-one__title">
+                    <h3 className="portfolio-one__title">
                       <Link href="portfolio-details">Pharmaceutical: 24-Country Rollout</Link>
-                    </h4>
+                    </h3>
                     <div className="portfolio-one__arrow">
                       <Link
                         href="assets/images/project/portfolio-1-2.webp"
@@ -77,11 +78,11 @@ export default function Portfolio() {
                   }}
                 >
                   <div className="portfolio-one__title-box">
-                    <h4 className="portfolio-one__title">
+                    <h3 className="portfolio-one__title">
                       <Link href="portfolio-details">
                         Wine & Beverage: Production ERP
                       </Link>
-                    </h4>
+                    </h3>
                     <div className="portfolio-one__arrow">
                       <Link
                         href="assets/images/project/portfolio-1-3.webp"
@@ -104,9 +105,9 @@ export default function Portfolio() {
                   }}
                 >
                   <div className="portfolio-one__title-box">
-                    <h4 className="portfolio-one__title">
+                    <h3 className="portfolio-one__title">
                       <Link href="portfolio-details">Oil & Gas: Asset Management</Link>
-                    </h4>
+                    </h3>
                     <div className="portfolio-one__arrow">
                       <Link
                         href="assets/images/project/portfolio-1-4.webp"

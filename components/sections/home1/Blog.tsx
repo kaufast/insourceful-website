@@ -8,7 +8,7 @@ export default function Blog() {
           <div className="section-title text-center">
             <div className="section-title__tagline-box">
               <div className="section-title__tagline-icon">
-                <img src="assets/images/icon/section-title-icon.png"  />
+                <img src="assets/images/icon/section-title-icon.png" alt="Section title icon" />
               </div>
               <p className="section-title__tagline">Our Blog</p>
             </div>
@@ -59,7 +59,7 @@ export default function Blog() {
                     Discover how the latest JDE upgrade delivers enhanced asset management capabilities.
                   </p>
                   <div className="blog-one__btn">
-                    <Link href="blog-details">
+                    <Link href="blog-details" aria-label="Read more about Oracle JD Edwards 9.2 Upgrade for Mining Operations">
                       Read more
                       <span className="icon-right-arrow1" />
                     </Link>
@@ -110,7 +110,7 @@ export default function Blog() {
                     Best practices for maintaining regulatory compliance during ERP implementations.
                   </p>
                   <div className="blog-one__btn">
-                    <Link href="blog-details">
+                    <Link href="blog-details" aria-label="Read more about SOX Compliance in Pharmaceutical ERP Systems">
                       Read more
                       <span className="icon-right-arrow1" />
                     </Link>
@@ -161,7 +161,7 @@ export default function Blog() {
                     How modern CAM systems optimize asset lifecycle management in energy sector.
                   </p>
                   <div className="blog-one__btn">
-                    <Link href="blog-details">
+                    <Link href="blog-details" aria-label="Read more about Capital Asset Management for Oil & Gas Digital Transformation">
                       Read more
                       <span className="icon-right-arrow1" />
                     </Link>

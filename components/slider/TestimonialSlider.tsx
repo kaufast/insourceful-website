@@ -74,7 +74,7 @@ export default function TestimonialSlider1() {
                                 <div className="testimonial-four__client-img">
                                     <img
                                         src="assets/images/testimonial/testimonial-1-1.jpg"
-                                        
+                                        alt="Client testimonial photo"
                                     />
                                 </div>
                                 <div className="testimonial-four__client-info">
@@ -113,7 +113,7 @@ export default function TestimonialSlider1() {
                                 <div className="testimonial-four__client-img">
                                     <img
                                         src="assets/images/testimonial/testimonial-1-2.jpg"
-                                        
+                                        alt="Client testimonial photo"
                                     />
                                 </div>
                                 <div className="testimonial-four__client-info">
@@ -152,7 +152,7 @@ export default function TestimonialSlider1() {
                                 <div className="testimonial-four__client-img">
                                     <img
                                         src="assets/images/testimonial/testimonial-1-1.jpg"
-                                        
+                                        alt="Client testimonial photo"
                                     />
                                 </div>
                                 <div className="testimonial-four__client-info">
@@ -191,7 +191,7 @@ export default function TestimonialSlider1() {
                                 <div className="testimonial-four__client-img">
                                     <img
                                         src="assets/images/testimonial/testimonial-1-2.jpg"
-                                        
+                                        alt="Client testimonial photo"
                                     />
                                 </div>
                                 <div className="testimonial-four__client-info">

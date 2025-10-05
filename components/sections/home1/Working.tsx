@@ -31,7 +31,7 @@ export default function Benefit() {
                 >
                   <img
                     src="assets/images/resources/benefits-one-img-1.webp"
-                    
+                    alt="Business benefits illustration"
                   />
                 </div>
               </div>
@@ -43,7 +43,7 @@ export default function Benefit() {
                     <div className="section-title__tagline-icon">
                       <img
                         src="assets/images/icon/section-title-icon.png"
-                        
+                        alt="Section title icon"
                       />
                     </div>
                     <p className="section-title__tagline">Our Benefits</p>
